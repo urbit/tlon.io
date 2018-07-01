@@ -12,11 +12,7 @@ server {
 
   ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
 
-  location / {
-    include proxy_params;
-    add_header X-Proxy-Cache $upstream_cache_status;
-    proxy_pass http://35.188.203.183:3000;
-  }
+  root /home/urb/github/keatondunsford/tlon.io/dist;
 }
 
 server {
