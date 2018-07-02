@@ -21,7 +21,7 @@
           — Paul Graham from [How to Start a Startup](http://www.paulgraham.com/start.html)
           ;div.mt-12
             ;>
-            ## A few animals we're looking for:
+            ## Here's what we're looking for:
           ==
           ;div.mt-12
               ### The interpreter cheetah
