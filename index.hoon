@@ -62,6 +62,15 @@
 
           Sound like you? Get in touch: `apply@tlon.io`.
         ==
+
+      ==
+      ;div.row
+        ;div.col-md-3
+          ;a/"https://urbit.org/privacy": Privacy Policy
+        ==
+        ;div.col-md-3
+          ;a/"https://urbit.org/tos": Terms of Service
+        ==
       ==
     ==
   ==
