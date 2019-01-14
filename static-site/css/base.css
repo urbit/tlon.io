@@ -1,10 +1,14 @@
 @charset "UTF-8";
+/**********************
+Color variables
+**********************/
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
+@import url("https://rsms.me/inter/inter-ui.css");
 html {
   font-family: sans-serif;
   /* 1 */
@@ -120,7 +124,7 @@ h1 {
  */
 mark {
   background: #ff0;
-  color: #000; }
+  color: #000000; }
 
 /**
  * Address inconsistent and variable font size in all browsers.
@@ -738,6 +742,19 @@ th {
 .z10 {
   z-index: 10; }
 
+.hidden {
+  visibility: hidden; }
+
+.super-hidden {
+  visibility: hidden;
+  position: fixed;
+  opacity: 0;
+  top: -9999px;
+  left: -99999px; }
+
+.visible {
+  visibility: visible; }
+
 .align-baseline {
   vertical-align: baseline; }
 
@@ -838,54 +855,274 @@ th {
 .order-last {
   order: 99999; }
 
+.flex-center-all {
+  justify-content: center;
+  align-items: center; }
+
 /**********************
-Color variables
+Opacity Scale
 **********************/
+.o-100 {
+  opacity: 1; }
+
+.o-90 {
+  opacity: .9; }
+
+.o-80 {
+  opacity: .8; }
+
+.o-70 {
+  opacity: .7; }
+
+.o-60 {
+  opacity: .6; }
+
+.o-50 {
+  opacity: .5; }
+
+.o-40 {
+  opacity: .4; }
+
+.o-30 {
+  opacity: .3; }
+
+.o-20 {
+  opacity: .2; }
+
+.o-10 {
+  opacity: .1; }
+
+.o-05 {
+  opacity: .05; }
+
+.o-025 {
+  opacity: .025; }
+
+.o-0 {
+  opacity: 0; }
+
 .br {
   border-width: 1px;
   border-style: solid; }
 
-.br-gray-30 {
-  border-color: #B3B3B3; }
+.bs-solid {
+  border-style: solid; }
+
+.bw-0 {
+  border-width: 0px; }
+
+.btw-0 {
+  border-top-width: 0px; }
+
+.brw-0 {
+  border-right-width: 0px; }
+
+.bbw-0 {
+  border-bottom-width: 0px; }
+
+.blw-0 {
+  border-left-width: 0px; }
+
+.bw-1 {
+  border-width: 1px; }
+
+.btw-1 {
+  border-top-width: 1px; }
+
+.brw-1 {
+  border-right-width: 1px; }
+
+.bbw-1 {
+  border-bottom-width: 1px; }
+
+.blw-1 {
+  border-left-width: 1px; }
+
+.bw-2 {
+  border-width: 2px; }
+
+.btw-2 {
+  border-top-width: 2px; }
+
+.brw-2 {
+  border-right-width: 2px; }
+
+.bbw-2 {
+  border-bottom-width: 2px; }
+
+.blw-2 {
+  border-left-width: 2px; }
+
+.br-red-dark {
+  border-color: #C80F34; }
+
+.br-red {
+  border-color: #EE5432; }
+
+.br-red-light {
+  border-color: #F9D6CE; }
+
+.br-yellow-dark {
+  border-color: #F3A12E; }
+
+.br-yellow {
+  border-color: #F8C134; }
+
+.br-yellow-light {
+  border-color: #FFEFC5; }
+
+.br-green-dark {
+  border-color: #286E55; }
+
+.br-green {
+  border-color: #2AA779; }
+
+.br-green-medium {
+  border-color: #2ED196; }
+
+.br-green-light {
+  border-color: #C5FBE7; }
+
+.br-blue-dark {
+  border-color: #190D8D; }
+
+.br-blue {
+  border-color: #4330FC; }
+
+.br-blue-medium {
+  border-color: #6184FF; }
+
+.br-blue-light {
+  border-color: #CDD8FF; }
+
+.br-purple {
+  border-color: #903AE6; }
+
+.br-purple-light {
+  border-color: #EC6FF7; }
+
+.br-white {
+  border-color: #FFFFFF; }
 
 .br-gray-10 {
   border-color: #F2F2F2; }
 
+.br-gray-20 {
+  border-color: #CCCCCC; }
+
+.br-gray-30 {
+  border-color: #B3B3B3; }
+
+.br-gray-40 {
+  border-color: #999999; }
+
+.br-gray-50 {
+  border-color: #7F7F7F; }
+
+.br-gray-60 {
+  border-color: #676767; }
+
+.br-gray-70 {
+  border-color: #4D4D4D; }
+
+.br-gray-80 {
+  border-color: #333333; }
+
+.br-gray-90 {
+  border-color: #1A1A1A; }
+
+.br-black {
+  border-color: #000000; }
+
+.br-gray {
+  border-color: #333333; }
+
 /**********************
   Background
 **********************/
+.bg-red-dark {
+  background-color: #C80F34; }
+
+.bg-red {
+  background-color: #EE5432; }
+
+.bg-red-light {
+  background-color: #F9D6CE; }
+
+.bg-yellow-dark {
+  background-color: #F3A12E; }
+
+.bg-yellow {
+  background-color: #F8C134; }
+
+.bg-yellow-light {
+  background-color: #FFEFC5; }
+
+.bg-green-dark {
+  background-color: #286E55; }
+
+.bg-green {
+  background-color: #2AA779; }
+
+.bg-green-medium {
+  background-color: #2ED196; }
+
+.bg-green-light {
+  background-color: #C5FBE7; }
+
+.bg-blue-dark {
+  background-color: #190D8D; }
+
 .bg-blue {
   background-color: #4330FC; }
 
-.bg-red {
-  background-color: #EE3124; }
+.bg-blue-medium {
+  background-color: #6184FF; }
 
-.bg-green {
-  background-color: #6FDC74; }
+.bg-blue-light {
+  background-color: #CDD8FF; }
 
-.bg-orange {
-  background-color: #FFC440; }
+.bg-purple {
+  background-color: #903AE6; }
 
-.bg-gray {
-  background-color: #333333; }
-
-.bg-gray-60 {
-  background-color: #666666; }
-
-.bg-gray-30 {
-  background-color: #B3B3B3; }
-
-.bg-gray-10 {
-  background-color: #F2F2F2; }
-
-.bg-black {
-  background-color: #111111; }
+.bg-purple-light {
+  background-color: #EC6FF7; }
 
 .bg-white {
   background-color: #FFFFFF; }
 
+.bg-gray-10 {
+  background-color: #F2F2F2; }
+
+.bg-gray-20 {
+  background-color: #CCCCCC; }
+
 .bg-gray-30 {
   background-color: #B3B3B3; }
+
+.bg-gray-40 {
+  background-color: #999999; }
+
+.bg-gray-50 {
+  background-color: #7F7F7F; }
+
+.bg-gray-60 {
+  background-color: #676767; }
+
+.bg-gray-70 {
+  background-color: #4D4D4D; }
+
+.bg-gray-80 {
+  background-color: #333333; }
+
+.bg-gray-90 {
+  background-color: #1A1A1A; }
+
+.bg-black {
+  background-color: #000000; }
+
+.bg-gray {
+  background-color: #333333; }
 
 /*
   Fluid-to-fixed conversions at standard screen sizes:
@@ -998,18 +1235,25 @@ Color variables
   src: url("https://storage.googleapis.com/media.urbit.org/fonts/scp-black.woff");
   font-weight: 700; }
 
+html {
+  font-family: 'Inter UI', sans-serif; }
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: 'Inter UI var alt', sans-serif; } }
+
 * {
   font-smoothing: antialiased;
   -webkit-font-smoothing: antialiased; }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 4rem;
+  font-family: 'Inter UI',-apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 3.5rem;
   line-height: 6rem;
-  color: #111111; }
+  color: #000000; }
 
 a {
-  color: black; }
+  color: #000000; }
 
 p {
   margin: 0 0 4rem; }
@@ -1025,42 +1269,66 @@ h5,
 .text-heading {
   margin: 0;
   font-family: "Work Sans";
-  color: #333333; }
+  color: #000000; }
 
 h1,
 .h1 {
-  font-size: 12rem;
-  font-weight: 600;
-  line-height: 16rem;
-  margin: 4rem 0; }
-
-h2,
-.h2 {
-  font-size: 9rem;
-  font-weight: 600;
-  line-height: 13rem;
-  margin: 3rem 0; }
-
-h3,
-.h3 {
   font-size: 6rem;
   font-weight: 600;
   line-height: 8rem;
-  margin: 2rem 0; }
+  margin: 0; }
+
+h2,
+.h2 {
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 6rem;
+  margin: 0; }
+
+h3,
+.h3 {
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 5rem;
+  margin: 0; }
 
 h4,
 .h4 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 4rem;
+  margin: 0; }
+
+.markdown h1,
+.markdown .h1 {
+  font-size: 6rem;
+  font-weight: 600;
+  line-height: 8rem;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em; }
+
+.markdown h2,
+.markdown .h2 {
   font-size: 5rem;
   font-weight: 600;
-  line-height: 7rem;
-  margin: 1rem 0; }
-
-h5,
-.h5 {
-  font-size: 4rem;
-  font-weight: 500;
   line-height: 6rem;
-  margin: 1rem 0; }
+  margin-top: 0.83em;
+  margin-bottom: 0.83em; }
+
+.markdown h3,
+.markdown .h3 {
+  font-size: 4rem;
+  font-weight: 600;
+  margin-top: 1em;
+  margin-bottom: 1em; }
+
+.markdown h4,
+.markdown .h4 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 4rem;
+  margin-top: 1.33em;
+  margin-bottom: 1.33em; }
 
 caption, .text-sm {
   font-size: 3rem;
@@ -1103,7 +1371,7 @@ code,
 
 .text-code {
   background-color: #F2F2F2;
-  color: #111111; }
+  color: #000000; }
 
 .code-block {
   background-color: #F2F2F2;
@@ -1155,32 +1423,86 @@ b, .text-700 {
 /**********************
 Text color
 **********************/
+.red-dark {
+  color: #C80F34; }
+
+.red {
+  color: #EE5432; }
+
+.red-light {
+  color: #F9D6CE; }
+
+.yellow-dark {
+  color: #F3A12E; }
+
+.yellow {
+  color: #F8C134; }
+
+.yellow-light {
+  color: #FFEFC5; }
+
+.green-dark {
+  color: #286E55; }
+
+.green {
+  color: #2AA779; }
+
+.green-medium {
+  color: #2ED196; }
+
+.green-light {
+  color: #C5FBE7; }
+
+.blue-dark {
+  color: #190D8D; }
+
 .blue {
   color: #4330FC; }
 
-.green {
-  color: #6FDC74; }
+.blue-medium {
+  color: #6184FF; }
 
-.red {
-  color: #EE3124; }
+.blue-light {
+  color: #CDD8FF; }
+
+.purple {
+  color: #903AE6; }
+
+.purple-light {
+  color: #EC6FF7; }
+
+.white {
+  color: #FFFFFF; }
 
 .gray-10 {
   color: #F2F2F2; }
 
+.gray-20 {
+  color: #CCCCCC; }
+
 .gray-30 {
   color: #B3B3B3; }
 
-.gray-60 {
-  color: #666666; }
+.gray-40 {
+  color: #999999; }
 
-.gray {
+.gray-50 {
+  color: #7F7F7F; }
+
+.gray-60 {
+  color: #676767; }
+
+.gray-70 {
+  color: #4D4D4D; }
+
+.gray-80 {
   color: #333333; }
 
-.black {
-  color: #111111; }
+.gray-90 {
+  color: #1A1A1A; }
 
-.white {
-  color: #FFFFFF; }
+.black {
+  color: #000000; }
 
 /**********************
   Alignment
@@ -1207,9 +1529,11 @@ button, .btn {
   font-weight: 500;
   font-size: 4rem;
   line-height: 4rem;
+  user-select: none;
   padding: 3rem 6rem;
-  color: black;
+  color: #000000;
   background-color: #B3B3B3;
+  white-space: nowrap;
   margin: 0 0 6px; }
 
 .btn-sm {
@@ -1219,25 +1543,25 @@ button, .btn {
 
 .btn-primary {
   background-color: #4330FC;
-  color: white; }
+  color: #FFFFFF; }
 
 .btn-secondary {
-  background-color: #6FDC74; }
+  background-color: #2AA779; }
 
 .btn-tertiary {
-  background-color: #666666;
-  color: white; }
+  background-color: #676767;
+  color: #FFFFFF; }
 
 .btn-warning {
-  background-color: #EE3124;
-  color: white; }
+  background-color: #EE5432;
+  color: #FFFFFF; }
 
 .btn-group .btn {
   display: inline-block; }
 
 .btn-group .btn:not(.active) {
   background-color: #B3B3B3;
-  color: black; }
+  color: #000000; }
 
 label {
   display: block;
@@ -1248,14 +1572,16 @@ textarea,
 input[type="text"],
 input[type="email"],
 input[type="number"] {
-  border: 2px solid #111111;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
   padding: 12px;
   width: 100%;
   outline: none; }
 
 .error-label {
   display: none;
-  color: #EE3124;
+  color: #EE5432;
   font-size: 4rem;
   line-height: 4rem;
   margin-top: 2rem; }
@@ -1266,7 +1592,9 @@ input[type="number"] {
 .input-group.error textarea,
 .input-group.error input[type="text"],
 .input-group.error input[type="email"] {
-  border: 0.5rem solid #EE3124; }
+  border-width: 2px;
+  border-style: solid;
+  border-color: #EE5432; }
 
 .input-group.error .error-label {
   display: block; }
@@ -1285,7 +1613,9 @@ fieldset {
 
 .select-dropdown {
   display: flex;
-  border: 2px solid black;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
   overflow: hidden;
   background-color: #FFFFFF; }
 
@@ -1296,7 +1626,9 @@ fieldset {
   box-shadow: none;
   background: transparent;
   background-image: none;
-  -webkit-appearance: none; }
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; }
 
 .select-dropdown select:focus {
   outline: none; }
@@ -1304,7 +1636,7 @@ fieldset {
 .triangle-down {
   border-left: 2rem solid transparent;
   border-right: 2rem solid transparent;
-  border-top: 4rem solid black; }
+  border-top: 4rem solid #000000; }
 
 .select-dropdown .triangle-down {
   border-width: 2rem 1rem 0rem 1rem;
@@ -1350,14 +1682,14 @@ fieldset {
   width: 1px;
   height: 1px;
   border: 12.0006px solid transparent;
-  border-right: 18px solid #000;
+  border-right: 18px solid #000000;
   border-left: 0 solid transparent; }
 
 .icon.next {
   width: 1px;
   height: 1px;
   border: 12.0006px solid transparent;
-  border-left: 18px solid #000;
+  border-left: 18px solid #000000;
   border-right: 0 solid transparent;
   margin-right: 0; }
 
@@ -1365,7 +1697,7 @@ fieldset {
   width: 1px;
   height: 1px;
   border: 12.0006px solid transparent;
-  border-bottom: 18px solid #000;
+  border-bottom: 18px solid #000000;
   border-top: 0 solid transparent; }
 
 /**********************
@@ -1375,7 +1707,7 @@ fieldset {
   display: inline-block;
   padding: 2rem;
   border-radius: 50%;
-  border: 2px solid black;
+  border: 2px solid #000000;
   text-align: center; }
 
 .circle-sm {
@@ -1394,7 +1726,7 @@ fieldset {
 .square {
   display: inline-block;
   padding: 2rem;
-  border: 2px solid black;
+  border: 2px solid #000000;
   text-align: center; }
 
 .square-sm {
@@ -1413,31 +1745,31 @@ fieldset {
   Shape Colors
 **********************/
 .shape-black {
-  background-color: black; }
+  background-color: #000000; }
 
 .shape-red {
-  background-color: #EE3124;
-  border-color: #EE3124; }
+  background-color: #EE5432;
+  border-color: #EE5432; }
 
 .shape-blue {
   background-color: #4330FC;
   border-color: #4330FC; }
 
 .shape-blue-light {
-  background-color: #A4D8E8;
-  border-color: #A4D8E8; }
+  background-color: #CDD8FF;
+  border-color: #CDD8FF; }
 
 .shape-orange {
-  background-color: #FFC440;
-  border-color: #FFC440; }
+  background-color: #F8C134;
+  border-color: #F8C134; }
 
 .shape-green {
-  background-color: #6FDC74;
-  border-color: #6FDC74; }
+  background-color: #2AA779;
+  border-color: #2AA779; }
 
 .shape-gray-60 {
-  background-color: #666666;
-  border-color: #666666; }
+  background-color: #676767;
+  border-color: #676767; }
 
 .shape-gray-30 {
   background-color: #B3B3B3;
@@ -1459,7 +1791,7 @@ fieldset {
 .triangle-down {
   border-left: 2rem solid transparent;
   border-right: 2rem solid transparent;
-  border-top: 4rem solid black; }
+  border-top: 4rem solid #000000; }
 
 /**********************
   Urbit logo
@@ -1470,7 +1802,7 @@ fieldset {
   display: inline-block;
   border-radius: 50%;
   vertical-align: middle;
-  border: 5px solid white;
+  border: 5px solid #FFFFFF;
   background-color: transparent; }
   .urbit-logo:before {
     content: "~";
@@ -1487,9 +1819,9 @@ fieldset {
     margin-top: 3px; }
 
 .urbit-logo-solid {
-  border-color: black; }
+  border-color: #000000; }
   .urbit-logo-solid:before {
-    color: black; }
+    color: #000000; }
 
 /**********************
   Base elements
@@ -1499,7 +1831,7 @@ section {
   border: none; }
 
 blockquote {
-  border-left: 6px solid black;
+  border-left: 6px solid #000000;
   margin: 24px 0;
   padding-left: 18px; }
 
