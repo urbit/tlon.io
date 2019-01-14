@@ -134,14 +134,14 @@
           ;h3: Mark
           ;code: ~palfun-foslup
           ;br;
-          ;span: Interface
+          ;span: Infrastructure
         ==
         ;div.col-md-3.col-md-offset-1
           ;img@"https://storage.googleapis.com/media.urbit.org/site/team/morgan.jpg";
           ;h3: Morgan
           ;code: ~hidrel-fabtel
           ;br;
-          ;span: Infrastructure
+          ;span: Interface
         ==
         ;div.col-md-3.col-md-offset-1
           ;img@"https://storage.googleapis.com/media.urbit.org/site/team/philip.jpg";
