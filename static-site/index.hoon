@@ -23,7 +23,7 @@
         ;div.col-md-12.mb-24
             Tlon Corp is looking for a front end developer with experience working closely with design to join the Tlon Interface team. In the short term, we're working on making the Urbit interface more accessible and intuitive; a project which spans interacting with our Ethereum-based PKI to developing a visual language for conveying the potentials of the platform. In the long term, we'd like to rethink what it means to build interfaces for an operating system that will last a hundred years. In the short term, you need to know JavaScript and have experience with all aspects of the modern frontend stack.
 
-            Below is an outline of our ideal candidate. If you don’t quite fit this, but are excited about the project and think you fit, reach out to us at `apply@tlon.io`.
+            Below is an outline of our ideal candidate. If you don't quite fit this, but are excited about the project and think you fit, reach out to us at `apply@tlon.io`.
 
             ;ul
               ;li: Used modern web UI frameworks (React/Redux, Elm, etc.) and opinions about their strengths and weaknesses
