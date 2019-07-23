@@ -28,7 +28,7 @@
             ;ul
               ;li: Used modern web UI frameworks (React/Redux, Elm, etc.) and opinions about their strengths and weaknesses
               ;li: Implemented an atomic design system for UI
-              ;li: Works with web3 or similar, as well as web3/wasm
+              ;li: Works with web3 or similar
               ;li: Worked closely with designers
               ;li: Writes clean, modern, functional javascript
               ;li: Wide variety of non-javascript programming experience a plus
