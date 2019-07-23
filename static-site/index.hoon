@@ -172,15 +172,6 @@
           ;br;
           ;span: Interface
         ==
-        ;div.col-md-3.col-md-offset-1
-          ;img@"https://storage.googleapis.com/media.urbit.org/site/team/will.jpg";
-          ;h3: Will
-          ;code: ~hadrud-lodsef
-          ;br;
-          ;span: Infrastructure
-        ==
-      ==
-      ;div.row.mb-12
         ;div.col-md-3
           ;img@"https://storage.googleapis.com/media.urbit.org/site/team/robert.jpg";
           ;h3: Robert
@@ -188,6 +179,8 @@
           ;br;
           ;span: Documentation
         ==
+      ==
+      ;div.row.mb-12
         ;div.col-md-3.col-md-offset-1
           ;img@"https://storage.googleapis.com/media.urbit.org/site/team/ted.jpg";
           ;h3: Ted
