@@ -152,7 +152,7 @@
         ;div.col-md-3.col-md-offset-1
           ;img@"https://storage.googleapis.com/media.urbit.org/site/team/philip.jpg";
           ;h3: Philip
-          ;code: ~wicdev-wisret
+          ;code: ~wicdev-wisryt
           ;br;
           ;span: Infrastructure
         ==
