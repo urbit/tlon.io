@@ -26,10 +26,10 @@
             Below is an outline of our ideal candidate. If you don't quite fit this, but are excited about the project and think you fit, reach out to us at `apply@tlon.io`.
 
             ;ul
-              ;li: Used modern web UI frameworks (React/Redux, Elm, etc.) and opinions about their strengths and weaknesses
-              ;li: Implemented an atomic design system for UI
-              ;li: Works with web3 or similar
-              ;li: Worked closely with designers
+              ;li: Has used modern web UI frameworks (React/Redux, Elm, etc.) and has opinions about their strengths and weaknesses
+              ;li: Has implemented an atomic design system for UI
+              ;li: Has worked with web3 or similar
+              ;li: Has worked closely with designers
               ;li: Writes clean, modern, functional javascript
               ;li: Wide variety of non-javascript programming experience a plus
               ;li: Design background a plus
