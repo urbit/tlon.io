@@ -12,3 +12,9 @@ img {
   width: 100%;
   margin-bottom: 4rem;
 }
+
+@media all and (max-width: 960px) {
+  .container {
+    padding: 0 4rem;
+  }
+}
