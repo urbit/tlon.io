@@ -26,10 +26,10 @@
             Below is an outline of our ideal candidate. If you don't quite fit this, but are excited about the project and think you fit, reach out to us at `apply@tlon.io`.
 
             ;ul
-              ;li: Used modern web UI frameworks (React/Redux, Elm, etc.) and opinions about their strengths and weaknesses
-              ;li: Implemented an atomic design system for UI
-              ;li: Works with web3 or similar, as well as web3/wasm
-              ;li: Worked closely with designers
+              ;li: Has used modern web UI frameworks (React/Redux, Elm, etc.) and has opinions about their strengths and weaknesses
+              ;li: Has implemented an atomic design system for UI
+              ;li: Has worked with web3 or similar
+              ;li: Has worked closely with designers
               ;li: Writes clean, modern, functional javascript
               ;li: Wide variety of non-javascript programming experience a plus
               ;li: Design background a plus
@@ -152,7 +152,7 @@
         ;div.col-md-3.col-md-offset-1
           ;img@"https://storage.googleapis.com/media.urbit.org/site/team/philip.jpg";
           ;h3: Philip
-          ;code: ~wicdev-wisret
+          ;code: ~wicdev-wisryt
           ;br;
           ;span: Infrastructure
         ==
@@ -172,15 +172,6 @@
           ;br;
           ;span: Interface
         ==
-        ;div.col-md-3.col-md-offset-1
-          ;img@"https://storage.googleapis.com/media.urbit.org/site/team/will.jpg";
-          ;h3: Will
-          ;code: ~hadrud-lodsef
-          ;br;
-          ;span: Infrastructure
-        ==
-      ==
-      ;div.row.mb-12
         ;div.col-md-3
           ;img@"https://storage.googleapis.com/media.urbit.org/site/team/robert.jpg";
           ;h3: Robert
@@ -188,6 +179,8 @@
           ;br;
           ;span: Documentation
         ==
+      ==
+      ;div.row.mb-12
         ;div.col-md-3.col-md-offset-1
           ;img@"https://storage.googleapis.com/media.urbit.org/site/team/ted.jpg";
           ;h3: Ted
