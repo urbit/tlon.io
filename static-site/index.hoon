@@ -21,19 +21,22 @@
       ==
       ;div.row
         ;div.col-md-12.mb-24
-            Tlon Corp is looking for a front end developer with experience working closely with design to join the Tlon Interface team. In the short term, we're working on making the Urbit interface more accessible and intuitive; a project which spans interacting with our Ethereum-based PKI to developing a visual language for conveying the potentials of the platform. In the long term, we'd like to rethink what it means to build interfaces for an operating system that will last a hundred years. In the short term, you need to know JavaScript and have experience with all aspects of the modern frontend stack.
 
-            Below is an outline of our ideal candidate. If you don't quite fit this, but are excited about the project and think you fit, reach out to us at `apply@tlon.io`.
+        Software Engineers:
+        ;ul
+          ;li: Learn software and system requirements from project manager.
+          ;li: Clarify with manager to understand details of software design and desired solution.
+          ;li: As directed by project management, design and develop or modify proprietary applications software to meet functional requirements for customized software and systems which will provide a network of cloud/virtual computers for a completely new internet experience using an open source software framework.
+          ;li: Design and implement software as directed using mathematical models and algorithms, software development and information technology development principles and theories, as well as leading edge technologies, including Hoon, Solidity, Lua, HTML5, CSS3, and JavaScript.
+          ;li: Test completed software to ensure it meets functional requirements.
+          ;li: Modify software as needed.
+          ;li: Write documentation.
+        ==
 
-            ;ul
-              ;li: Has used modern web UI frameworks (React/Redux, Elm, etc.) and has opinions about their strengths and weaknesses
-              ;li: Has implemented an atomic design system for UI
-              ;li: Has worked with web3 or similar
-              ;li: Has worked closely with designers
-              ;li: Writes clean, modern, functional javascript
-              ;li: Wide variety of non-javascript programming experience a plus
-              ;li: Design background a plus
-            ==
+        Must have a Bachelor’s degree in Software Engineering and/or Information Technology plus one year of software development experience for distributed software systems and software architecture.
+
+        Please mail your cover letter, resume, and references to HR, Tlon Corporation, 548 Market Street, Box 56196, San Francisco, CA 94101. Reference Job Code “Software Engineer.” No calls please.
+
         ==
       ==
       ;div.row
