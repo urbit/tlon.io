@@ -22,12 +22,12 @@
       ;div.row
         ;div.col-md-12.mb-24
 
-        Software Engineers:
+        Software Engineers -
         ;ul
           ;li: Learn software and system requirements from project manager.
           ;li: Clarify with manager to understand details of software design and desired solution.
           ;li: As directed by project management, design and develop or modify proprietary applications software to meet functional requirements for customized software and systems which will provide a network of cloud/virtual computers for a completely new internet experience using an open source software framework.
-          ;li: Design and implement software as directed using mathematical models and algorithms, software development and information technology development principles and theories, as well as leading edge technologies, including Hoon, Solidity, Lua, HTML5, CSS3, and JavaScript.
+          ;li: Design and implement software as directed using mathematical models and algorithms, software development and information technology development principles and theories, as well as leading edge technologies, including Hoon, Solidity, Lua, HTML5, CSS3 and JavaScript.
           ;li: Test completed software to ensure it meets functional requirements.
           ;li: Modify software as needed.
           ;li: Write documentation.
@@ -35,7 +35,7 @@
 
         Must have a Bachelor’s degree in Software Engineering and/or Information Technology plus one year of software development experience for distributed software systems and software architecture.
 
-        Please mail your cover letter, resume, and references to HR, Tlon Corporation, 548 Market Street, Box 56196, San Francisco, CA 94101. Reference Job Code “Software Engineer.” No calls please.
+        Please mail your cover letter, resume and references to HR, Tlon Corporation, 548 Market Street, Box 56196, San Francisco, CA 94101. Reference Job Code “Software Engineer” No calls please.
 
         ==
       ==
