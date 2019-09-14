@@ -36,9 +36,9 @@
 
             <p>Please mail your cover letter, resume and references to HR, Tlon Corporation, 548 Market Street, Box 56196, San Francisco, CA 94101. Reference Job Code "Software Engineer" No calls please.</p>
         </section>
-        <section class="employee-directory w-75-l w-75-xl w-100 flex-auto tc">
+        <section class="employee-directory w-75-l w-75-xl w-100 tc flex flex-wrap flex-row">
         {% for person in config.extra.roster %}
-        <section class="ml4 mr4 dib tl">
+        <section class="ma2 dib tl flex flex-column">
             {% if person.pic %}
             <img src="{{ person.pic }}" height="256" width="256"/>
             {% else %}
