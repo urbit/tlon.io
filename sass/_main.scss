@@ -1,0 +1,110 @@
+@import "indigo";
+@import url('https://rsms.me/inter/inter-ui.css');
+
+@font-face {
+    font-family: "Source Code Pro";
+    src: url("https://storage.googleapis.com/media.urbit.org/fonts/scp-extralight.woff");
+    font-weight: 200;
+  }
+  
+  @font-face {
+    font-family: "Source Code Pro";
+    src: url("https://storage.googleapis.com/media.urbit.org/fonts/scp-light.woff");
+    font-weight: 300;
+  }
+  
+  @font-face {
+    font-family: "Source Code Pro";
+    src: url("https://storage.googleapis.com/media.urbit.org/fonts/scp-regular.woff");
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-family: "Source Code Pro";
+    src: url("https://storage.googleapis.com/media.urbit.org/fonts/scp-medium.woff");
+    font-weight: 500;
+  }
+  
+  @font-face {
+    font-family: "Source Code Pro";
+    src: url("https://storage.googleapis.com/media.urbit.org/fonts/scp-bold.woff");
+    font-weight: 600;
+  }
+  
+  @font-face {
+    font-family: "Source Code Pro";
+    src: url("https://storage.googleapis.com/media.urbit.org/fonts/scp-black.woff");
+    font-weight: 700;
+  }
+
+  body {
+    font-family: "Inter", "Inter UI", sans-serif;
+    @extend .lh-copy;
+    -webkit-font-smoothing: antialiased;
+  }
+  a {
+    color: black;
+    border-bottom: 1px solid black;
+    text-decoration: none;
+  }
+
+  address {
+    font-family: "Source Code Pro", monospace;
+    font-style: normal;
+  }
+
+  .employee-directory {
+    margin: 0 auto;
+    flex-wrap: wrap;
+    &>* {
+      flex: 1 1 30%;
+      margin: 32px;
+      flex-shrink: 0;
+    }
+    p {
+      margin-block-start: 0;
+      margin-block-end: 0;
+      margin: 0;
+    }
+    img {
+      max-width: 256px;
+    }
+    section {
+      max-width: 35%;
+    }
+  }
+
+  aside#graphic {
+    right: 0;
+    height: 32rem;
+    width: 32rem;
+  }
+
+
+@media screen and (max-width: 60em) {
+  .employee-directory {
+    margin: 0 auto;
+  }
+  aside#graphic {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 46.875em) {
+  .employee-directory {
+    text-align: left;
+    margin: 0;
+    section {
+      max-width: 37%;
+    }
+  }
+}
+
+  @media screen and (max-width: 34.375em) {
+    aside#graphic {
+      margin-left: -2rem;
+    }
+    .employee-directory section {
+      max-width: 42%;
+    }
+  }

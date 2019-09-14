@@ -1,0 +1,36 @@
+# The URL the site will be built for
+base_url = "https://tlon.io"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = false
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+[extra]
+# Put all your custom variables here
+roster = [
+    { name = "Galen", dept = "CEO", ship = "~ravmel-ropdyl", pic = "https://storage.googleapis.com/media.urbit.org/site/team/galen.jpg"},
+    { name = "Anthony", dept = "CPO", ship = "~poldec-tonteg", pic = "https://storage.googleapis.com/media.urbit.org/site/team/anthony.jpg"},
+    { name = "Erik", dept = "COO", ship = "~patnes-rigtyn", pic = "https://storage.googleapis.com/media.urbit.org/site/team/erik.jpg"},
+    { name = "Ben", dept = "Infrastructure", ship = "~pitmug-roptec", pic = "https://storage.googleapis.com/media.urbit.org/site/team/ben.jpg"},
+    { name = "Elliot", dept = "Infrastructure", ship = "~littel-ponnys", pic = "https://storage.googleapis.com/media.urbit.org/site/team/elliot.jpg"},
+    { name = "Corrina", dept = "Operations", ship = "~roslet-tanner", pic = "https://storage.googleapis.com/media.urbit.org/site/team/corrina.jpg"},
+    { name = "David", dept = "Documentation", ship = "~rapfyr-diglyt", pic = "https://storage.googleapis.com/media.urbit.org/site/team/david.jpg"},
+    { name = "Jared", dept = "Infrastructure", ship = "~nidsut-tomdun", pic = "https://storage.googleapis.com/media.urbit.org/site/team/jared.jpg"},
+    { name = "Gavin", dept = "Interface", ship = "~ridlur-figbud", pic = "https://storage.googleapis.com/media.urbit.org/site/team/gavin.jpg"},
+    { name = "Isaac", dept = "Infrastructure", ship = "~novlud-padtyv", pic = "https://storage.googleapis.com/media.urbit.org/site/team/isaac.jpg"},
+    { name = "Logan", dept = "Infrastructure", ship = "~tacryt-socryp", pic = "https://storage.googleapis.com/media.urbit.org/site/team/logan.jpg"},
+    { name = "Jimmy", dept = "Interface", ship = "~haptyl-wanwes", pic = "https://storage.googleapis.com/media.urbit.org/site/team/jimmy.jpg"},
+    { name = "Joe", dept = "Infrastructure", ship = "~master-morzod", pic = "https://storage.googleapis.com/media.urbit.org/site/team/joe.jpg"},
+    { name = "Philip", dept = "Infrastructure", ship = "~wicdev-wisret", pic = "https://storage.googleapis.com/media.urbit.org/site/team/philip.jpg"},
+    { name = "Mark", dept = "Infrastructure", ship = "~palfun-folsup", pic = "https://storage.googleapis.com/media.urbit.org/site/team/mark.jpg"},
+    { name = "Morgan", dept = "Interface", ship = "~hidrel-fabtel", pic = "https://storage.googleapis.com/media.urbit.org/site/team/morgan.jpg"},
+    { name = "Robert", dept = "Documentation", ship = "~lodleb-ritrul", pic = "https://storage.googleapis.com/media.urbit.org/site/team/robert.jpg"},
+    { name = "Ted", dept = "Infrastructure", ship = "~rovnys-ricfer", pic = "https://storage.googleapis.com/media.urbit.org/site/team/ted.jpg"},
+    { name = "Jon", dept = "Documentation", ship = "~tidrel-tabpub", pic = ""}
+]

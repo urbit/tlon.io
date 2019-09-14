@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <link rel="shortcut icon" type="image/png" href="/favicon.ico"/>
+        <link href="/styles.css" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width">
+        <title>Tlon</title>
+    </head>
+    <body class="flex-auto pa5">
+        <aside id="graphic" class="absolute-l absolute-xl relative w-third-l w-third-xl w-100 w-100-m">
+                <img class="absolute" style="left: 10%;top: 14%;" src="/Group 23.3.svg">
+                <img class="absolute" style="top: -6%;left: 49%;" src="/Ellipse-1.svg">
+                <img class="absolute" style="top: 6%;left: 49%;" src="/Ellipse-2.svg">
+                <img class="absolute" style="top: 21%;left: 49%;" src="/Ellipse-3.svg">
+                <img class="absolute" style="top: 38%;left: 49%;" src="/Ellipse-4.svg">
+                <img class="absolute" style="top: 53.5%;left: 49%;" src="/Ellipse-5.svg">
+        </aside>
+        <main class="mt3">
+        <section class="w-third-l w-third-xl w-100">
+            <p>Tlon is building an entirely new kind of personal computer and operating system.</p>
+            <p>This new computer is <a href="https://urbit.org">Urbit</a>, and it may be the last computer you'll ever need.</p>
+        </section>
+        <section class="mt12-l mt12-xl mt6-m mt4">
+            <p class="mb8">We're Hiring</p>
+            <p>Software Engineers -</p>
+            <ul>
+            <li>Learn software and system requirements from project manager.</li>
+            <li>Clarify with manager to understand details of software design and desired solution.</li>
+            <li>As directed by project management, design and develop or modify proprietary applications software to meet functional requirements for customized software and systems which will provide a network of cloud/virtual computers for a completely new internet experience using an open source software framework.</li>
+            <li>Design and implement software as directed using mathematical models and algorithms, software development and information technology development principles and theories, as well as leading edge technologies, including Hoon, Solidity, Lua, HTML5, CSS3 and JavaScript.</li>
+            <li>Test completed software to ensure it meets functional requirements.</li>
+            <li>Modify software as needed.</li>
+            <li>Write documentation.</li>
+            </ul>
+
+            <p>Must have a Bachelor's degree in Software Engineering and/or Information Technology plus one year of software development experience for distributed software systems and software architecture.</p>
+
+            <p>Please mail your cover letter, resume and references to HR, Tlon Corporation, 548 Market Street, Box 56196, San Francisco, CA 94101. Reference Job Code "Software Engineer" No calls please.</p>
+        </section>
+        <section class="employee-directory w-75-l w-75-xl w-100 flex-auto tc">
+        {% for person in config.extra.roster %}
+        <section class="ml4 mr4 dib tl">
+            {% if person.pic %}
+            <img src="{{ person.pic }}" height="256" width="256"/>
+            {% else %}
+            <div style="background: transparent; height: 256px; width: 256px;"></div>
+            {% endif %}
+            <p>{{ person.name }}</p>
+            <address>{{ person.ship }}</address>
+            <p>{{ person.dept }}</p>
+        </section>
+        {% endfor %}
+        </section>
+    </main>
+    </body>
+</html>

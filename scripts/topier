@@ -1,5 +1,0 @@
-rm -rf "$@"/home/web
-cp -r static-site "$@"/home/web
-cp static-site/index.hoon "$@"/home/web.hoon
-cp urb.hoon "$@"/home/ren
-exit
