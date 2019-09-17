@@ -19,24 +19,7 @@
             <p>Tlon is building an entirely new kind of personal computer and operating system.</p>
             <p>This new computer is <a href="https://urbit.org">Urbit</a>, and it may be the last computer you'll ever need.</p>
         </section>
-        <section class="mt12-l mt12-xl mt6-m mt4">
-            <p class="mb4">We're Hiring</p>
-            <p>Software Engineers -</p>
-            <ul>
-            <li>Learn software and system requirements from project manager.</li>
-            <li>Clarify with manager to understand details of software design and desired solution.</li>
-            <li>As directed by project management, design and develop or modify proprietary applications software to meet functional requirements for customized software and systems which will provide a network of cloud/virtual computers for a completely new internet experience using an open source software framework.</li>
-            <li>Design and implement software as directed using mathematical models and algorithms, software development and information technology development principles and theories, as well as leading edge technologies, including Hoon, Solidity, Lua, HTML5, CSS3 and JavaScript.</li>
-            <li>Test completed software to ensure it meets functional requirements.</li>
-            <li>Modify software as needed.</li>
-            <li>Write documentation.</li>
-            </ul>
-
-            <p>Must have a Bachelor's degree in Software Engineering and/or Information Technology plus one year of software development experience for distributed software systems and software architecture.</p>
-
-            <p>Please mail your cover letter, resume and references to HR, Tlon Corporation, 548 Market Street, Box 56196, San Francisco, CA 94101. Reference Job Code "Software Engineer" No calls please.</p>
-        </section>
-        <section class="employee-directory w-75-l w-75-xl w-100 tc flex flex-wrap flex-row">
+        <section class="employee-directory items-center w-75-l w-75-xl w-60 mt3 mt0-xl mt0-l mt0-m tc flex flex-wrap flex-row">
         {% for person in config.extra.roster %}
         <section class="ma2 dib tl flex flex-column">
             {% if person.pic %}
@@ -51,5 +34,9 @@
         {% endfor %}
         </section>
     </main>
+    <footer class="mt9">
+        <h2 class="tc fw4 mb8">Want to work with us? Try <address class="di">apply@tlon.io</address>.</h2>
+        <a href="https://urbit.org/privacy">Privacy Policy</a><a class="ml4" href="https://urbit.org/toc">Terms of Service</a>
+    </footer>
     </body>
 </html>

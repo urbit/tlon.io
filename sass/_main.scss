@@ -54,7 +54,7 @@
   }
 
   .employee-directory {
-    margin: 0 auto;
+    margin: 27rem auto 2rem auto;
     p {
       margin-block-start: 0;
       margin-block-end: 0;
@@ -83,6 +83,9 @@
 }
 
 @media screen and (max-width: 46.875em) {
+  .employee-directory {
+    margin: 12rem auto 2rem auto;
+  }
 }
 
 @media screen and (max-width: 34.375em) {
