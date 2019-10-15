@@ -1,5 +1,2 @@
-node_modules/
-package-lock.json
-.sslcert/
-npm-debug.log
 .DS_Store
+public/
