@@ -34,5 +34,6 @@ roster = [
     { name = "Brendan", dept = "Infrastructure", ship = "~moprys-lidtyl", pic = "https://storage.googleapis.com/media.urbit.org/site/team/brendan.jpg"},
     { name = "Jon", dept = "Documentation", ship = "~tidrel-tabpub", pic = "https://storage.googleapis.com/media.urbit.org/site/team/jon.svg"},
     { name = "Matilde", dept = "Interface", ship = "~haddef-sigwen", pic = "https://storage.googleapis.com/media.urbit.org/site/team/matilde.svg"},
-    { name = "Ed", dept = "Interface", ship = "~fabled-faster", pic = "https://storage.googleapis.com/media.urbit.org/site/team/ed.svg"}
+    { name = "Ed", dept = "Interface", ship = "~fabled-faster", pic = "https://storage.googleapis.com/media.urbit.org/site/team/ed.svg"},
+    { name = "Christian", dept = "Operations", ship = "~pindet-timmut", pic = "https://storage.googleapis.com/media.urbit.org/site/team/christian.svg"}
 ]
