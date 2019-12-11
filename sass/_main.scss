@@ -6,31 +6,31 @@
     src: url("https://storage.googleapis.com/media.urbit.org/fonts/scp-extralight.woff");
     font-weight: 200;
   }
-  
+
   @font-face {
     font-family: "Source Code Pro";
     src: url("https://storage.googleapis.com/media.urbit.org/fonts/scp-light.woff");
     font-weight: 300;
   }
-  
+
   @font-face {
     font-family: "Source Code Pro";
     src: url("https://storage.googleapis.com/media.urbit.org/fonts/scp-regular.woff");
     font-weight: 400;
   }
-  
+
   @font-face {
     font-family: "Source Code Pro";
     src: url("https://storage.googleapis.com/media.urbit.org/fonts/scp-medium.woff");
     font-weight: 500;
   }
-  
+
   @font-face {
     font-family: "Source Code Pro";
     src: url("https://storage.googleapis.com/media.urbit.org/fonts/scp-bold.woff");
     font-weight: 600;
   }
-  
+
   @font-face {
     font-family: "Source Code Pro";
     src: url("https://storage.googleapis.com/media.urbit.org/fonts/scp-black.woff");
@@ -48,17 +48,17 @@
     text-decoration: none;
   }
 
-  address {
+  .mono {
     font-family: "Source Code Pro", monospace;
     font-style: normal;
   }
 
   .employee-directory {
-    margin: 27rem auto 2rem auto;
     p {
       margin-block-start: 0;
       margin-block-end: 0;
       margin: 0;
+      display: block;
     }
     img {
       max-width: 256px;
