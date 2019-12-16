@@ -71,28 +71,3 @@ address,
     margin-bottom: 4rem;
   }
 }
-
-aside#graphic {
-  right: 0;
-  height: 32rem;
-  width: 32rem;
-}
-
-
-@media screen and (max-width: 60em) {
-  aside#graphic {
-    margin: 0 auto;
-  }
-}
-
-@media screen and (max-width: 46.875em) {
-  .employee-directory {
-    margin: 12rem auto 2rem auto;
-  }
-}
-
-@media screen and (max-width: 34.375em) {
-  aside#graphic {
-    margin-left: -2rem;
-  }
-}
