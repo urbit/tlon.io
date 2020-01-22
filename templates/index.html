@@ -7,15 +7,15 @@
     </head>
     <body class="flex-auto pa5">
         <main class="mt3">
-        <section class="w-75-l w-75-xl measure-wide mt3 mt0-xl mt0-l mt0-m">
+        <section class="measure-wide mt3 mt0-xl mt0-l mt0-m">
             <p><b>Tlon</b> is building the platform for a new peer to peer internet.</p>
             <p>This platform is <a href="https://urbit.org">Urbit</a>.</p>
             <p>We make things that are technically excellent, architecturally sound, and aesthetically beautiful. </p>
             <p>Smart, motivated people should <span class="mono">apply@tlon.io</span>.</p>
         </section>
-        <section class="employee-directory w-75-l w-75-xl w-100 mt8 tc flex flex-wrap flex-row">
+        <section class="employee-directory w-100 mt8 tc flex flex-wrap flex-row mw8">
         {% for person in config.extra.roster %}
-        <section class="dib tl flex flex-column">
+        <section class="dib tl flex flex-column mr8 mb6">
             {% if person.pic %}
             <img src="{{ person.pic }}" height="256" width="256"/>
             {% else %}
