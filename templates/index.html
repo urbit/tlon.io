@@ -21,7 +21,7 @@
             {% else %}
             <div style="background: transparent; height: 256px; width: 256px;"></div>
             {% endif %}
-            <p class="pt1">{{ person.name }}</p>
+            <p class="pt1">{{ person.name | safe }}</p>
             <address>{{ person.ship }}</address>
         </section>
         {% endfor %}
