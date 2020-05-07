@@ -36,6 +36,6 @@ roster = [
     { name = "Matilde",  ship = "~haddef-sigwen", pic = "https://storage.googleapis.com/media.urbit.org/site/team/matilde.svg"},
     { name = "&#xC9;douard",  ship = "~fabled-faster", pic = "https://storage.googleapis.com/media.urbit.org/site/team/ed.svg"},
     { name = "Christian",  ship = "~pindet-timmut", pic = "https://storage.googleapis.com/media.urbit.org/site/team/christian.svg"},
-    { name = "Kenny", ship = "~sicdev-pilnup", pic = "https://i.ibb.co/ZGxYr3G/kenny3.jpg"},
+    { name = "Kenny", ship = "~sicdev-pilnup", pic = "https://media.urbit.org/site/team/kenny.svg"},
     { name = "Nicholas", ship = "~simfur-ritwed", pic = "https://storage.googleapis.com/media.urbit.org/site/team/nick.svg"}
 ]
