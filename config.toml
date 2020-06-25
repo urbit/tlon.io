@@ -17,7 +17,6 @@ roster = [
     { name = "Galen",  ship = "~ravmel-ropdyl", pic = "https://storage.googleapis.com/media.urbit.org/site/team/galen.jpg"},
     { name = "Anthony",  ship = "~poldec-tonteg", pic = "https://storage.googleapis.com/media.urbit.org/site/team/anthony.jpg"},
     { name = "Erik",  ship = "~patnes-rigtyn", pic = "https://storage.googleapis.com/media.urbit.org/site/team/erik.jpg"},
-    { name = "Ben",  ship = "~pitmug-roptec", pic = "https://storage.googleapis.com/media.urbit.org/site/team/ben.jpg"},
     { name = "Elliot",  ship = "~littel-ponnys", pic = "https://storage.googleapis.com/media.urbit.org/site/team/elliot.jpg"},
     { name = "Corrina",  ship = "~roslet-tanner", pic = "https://storage.googleapis.com/media.urbit.org/site/team/corrina.jpg"},
     { name = "David",  ship = "~rapfyr-diglyt", pic = "https://storage.googleapis.com/media.urbit.org/site/team/david.svg"},
