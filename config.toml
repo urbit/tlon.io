@@ -13,28 +13,4 @@ build_search_index = false
 
 [extra]
 # Put all your custom variables here
-roster = [
-    { name = "Galen",  ship = "~ravmel-ropdyl", pic = "https://storage.googleapis.com/media.urbit.org/site/team/galen.jpg"},
-    { name = "Anthony",  ship = "~poldec-tonteg", pic = "https://storage.googleapis.com/media.urbit.org/site/team/anthony.jpg"},
-    { name = "Erik",  ship = "~patnes-rigtyn", pic = "https://storage.googleapis.com/media.urbit.org/site/team/erik.jpg"},
-    { name = "Elliot",  ship = "~littel-ponnys", pic = "https://storage.googleapis.com/media.urbit.org/site/team/elliot.jpg"},
-    { name = "Corrina",  ship = "~roslet-tanner", pic = "https://storage.googleapis.com/media.urbit.org/site/team/corrina.jpg"},
-    { name = "David",  ship = "~rapfyr-diglyt", pic = "https://storage.googleapis.com/media.urbit.org/site/team/david.svg"},
-    { name = "Jared",  ship = "~nidsut-tomdun", pic = "https://storage.googleapis.com/media.urbit.org/site/team/jared.jpg"},
-    { name = "Gavin",  ship = "~ridlur-figbud", pic = "https://storage.googleapis.com/media.urbit.org/site/team/gavin.jpg"},
-    { name = "Isaac",  ship = "~novlud-padtyv", pic = "https://storage.googleapis.com/media.urbit.org/site/team/isaac.jpg"},
-    { name = "Logan",  ship = "~tacryt-socryp", pic = "https://storage.googleapis.com/media.urbit.org/site/team/logan.jpg"},
-    { name = "Jimmy",  ship = "~haptyl-wanwes", pic = "https://storage.googleapis.com/media.urbit.org/site/team/jimmy.jpg"},
-    { name = "Joe",  ship = "~master-morzod", pic = "https://storage.googleapis.com/media.urbit.org/site/team/joe.svg"},
-    { name = "Philip",  ship = "~wicdev-wisryt", pic = "https://storage.googleapis.com/media.urbit.org/site/team/philip.jpg"},
-    { name = "Mark",  ship = "~palfun-foslup", pic = "https://storage.googleapis.com/media.urbit.org/site/team/mark.jpg"},
-    { name = "Robert",  ship = "~lodleb-ritrul", pic = "https://storage.googleapis.com/media.urbit.org/site/team/robert.jpg"},
-    { name = "Ted",  ship = "~rovnys-ricfer", pic = "https://storage.googleapis.com/media.urbit.org/site/team/ted.jpg"},
-    { name = "Brendan",  ship = "~moprys-lidtyl", pic = "https://storage.googleapis.com/media.urbit.org/site/team/brendan.jpg"},
-    { name = "Jon",  ship = "~tidrel-tabpub", pic = "https://storage.googleapis.com/media.urbit.org/site/team/jon.svg"},
-    { name = "Matilde",  ship = "~haddef-sigwen", pic = "https://storage.googleapis.com/media.urbit.org/site/team/matilde.svg"},
-    { name = "&#xC9;douard",  ship = "~fabled-faster", pic = "https://storage.googleapis.com/media.urbit.org/site/team/ed.svg"},
-    { name = "Christian",  ship = "~pindet-timmut", pic = "https://storage.googleapis.com/media.urbit.org/site/team/christian.svg"},
-    { name = "Kenny", ship = "~sicdev-pilnup", pic = "https://media.urbit.org/site/team/kenny.svg"},
-    { name = "Nicholas", ship = "~simfur-ritwed", pic = "https://storage.googleapis.com/media.urbit.org/site/team/nick.svg"}
-]
+

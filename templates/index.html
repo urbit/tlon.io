@@ -5,30 +5,41 @@
         <meta name="viewport" content="width=device-width">
         <title>Tlon Corporation</title>
     </head>
-    <body class="flex-auto pa5">
+    <body class="flex-auto pa7">
         <main class="mt3">
         <section class="measure-wide mt3 mt0-xl mt0-l mt0-m">
-            <p><b>Tlon</b> is building the platform for a new peer to peer internet.</p>
-            <p>This platform is <a href="https://urbit.org">Urbit</a>.</p>
+            <p>Tlon is building the platform for a new peer to peer internet.</p>
+            <p>This platform is <a class="bb" href="https://urbit.org">Urbit</a>.</p>
             <p>We make things that are technically excellent, architecturally sound, and aesthetically beautiful. </p>
-            <p>Smart, motivated people should <span class="mono">apply@tlon.io</span>.</p>
         </section>
-        <section class="employee-directory w-100 mt8 tc flex flex-wrap flex-row mw8">
-        {% for person in config.extra.roster %}
-        <section class="dib tl flex flex-column mr8 mb6">
-            {% if person.pic %}
-            <img src="{{ person.pic }}" height="256" width="256"/>
-            {% else %}
-            <div style="background: transparent; height: 256px; width: 256px;"></div>
-            {% endif %}
-            <p class="pt1">{{ person.name | safe }}</p>
-            <address>{{ person.ship }}</address>
-        </section>
-        {% endfor %}
+        <section class="measure-wide mt6">
+          <p>New: <span class="new-green1">Tlon Hosting Services</span></p>
+          <p>For a limited time, Urbit node hosting will be available for free.</p>
+          <p>Soon: Experience a simple, always-on, zero-maintenance, actually-yours, completely portable, personal cloud computer.</p>
+              <form action="https://urbit.us11.list-manage.com/subscribe/post?u=972a03db9e0c6c25bb58de8c8&amp;id=0864786f97"
+                method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form mt6" target="_blank"
+                novalidate>
+                <div class="input-group" id="mc_embed_signup_scroll">
+                  <div class="mc-field-group w-100 flex">
+                    <div class="relative w-100 mw5 mb2">
+                    <input class="bg-white black b--custom-gray4 ba br1 pa2 w-100 br0 wk-appearance-none pr7  " type="email" name="EMAIL"
+                      id="mce-EMAIL" placeholder="zod@urbit.org" required>
+                      <span class="relative"></span>
+                      </div>
+                    <button id="mc-embedded-subscribe" class="ml1 br1 dib bn bg-custom-green1 white flex-shrink-0 ph4 wk-appearance-none"
+                      style="font-family: 'Inter UI', san-serif; height: 36px;" type="submit"
+                      name="subscribe">
+                      Join Waitlist
+                    </button>
+                  </div>
+                </div>
+              </form>
         </section>
     </main>
-    <footer class="mt8">
-        <a href="https://urbit.org/privacy">Privacy Policy</a><a class="ml4" href="https://urbit.org/terms-of-use/">Terms of Service</a>
+    <footer class="cf">
+        <a href="https://urbit.org/privacy">Privacy Policy</a>
+        <a class="ml4" href="https://urbit.org/terms-of-use/">Terms of Service</a>
+        <a class="ml4" href="mailto:support@tlon.io">support@tlon.io</a>
     </footer>
     </body>
 </html>
