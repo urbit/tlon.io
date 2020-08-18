@@ -28,7 +28,6 @@ roster = [
     { name = "Joe",  ship = "~master-morzod", pic = "https://storage.googleapis.com/media.urbit.org/site/team/joe.svg"},
     { name = "Philip",  ship = "~wicdev-wisryt", pic = "https://storage.googleapis.com/media.urbit.org/site/team/philip.jpg"},
     { name = "Mark",  ship = "~palfun-foslup", pic = "https://storage.googleapis.com/media.urbit.org/site/team/mark.jpg"},
-    { name = "Robert",  ship = "~lodleb-ritrul", pic = "https://storage.googleapis.com/media.urbit.org/site/team/robert.jpg"},
     { name = "Ted",  ship = "~rovnys-ricfer", pic = "https://storage.googleapis.com/media.urbit.org/site/team/ted.jpg"},
     { name = "Brendan",  ship = "~moprys-lidtyl", pic = "https://storage.googleapis.com/media.urbit.org/site/team/brendan.jpg"},
     { name = "Jon",  ship = "~tidrel-tabpub", pic = "https://storage.googleapis.com/media.urbit.org/site/team/jon.svg"},
