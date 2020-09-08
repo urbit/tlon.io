@@ -30,7 +30,7 @@ roster = [
     { name = "Mark",  ship = "~palfun-foslup", pic = "https://storage.googleapis.com/media.urbit.org/site/team/mark.jpg"},
     { name = "Ted",  ship = "~rovnys-ricfer", pic = "https://storage.googleapis.com/media.urbit.org/site/team/ted.jpg"},
     { name = "Brendan",  ship = "~moprys-lidtyl", pic = "https://storage.googleapis.com/media.urbit.org/site/team/brendan.jpg"},
-    { name = "Jon",  ship = "~tidrel-tabpub", pic = "https://storage.googleapis.com/media.urbit.org/site/team/jon.svg"},
+    { name = "Jon",  ship = "~datnut-pollen", pic = "https://storage.googleapis.com/media.urbit.org/site/team/jon.svg"},
     { name = "Matilde",  ship = "~haddef-sigwen", pic = "https://storage.googleapis.com/media.urbit.org/site/team/matilde.svg"},
     { name = "&#xC9;douard",  ship = "~fabled-faster", pic = "https://storage.googleapis.com/media.urbit.org/site/team/ed.svg"},
     { name = "Christian",  ship = "~pindet-timmut", pic = "https://storage.googleapis.com/media.urbit.org/site/team/christian.svg"},
