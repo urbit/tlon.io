@@ -2,6 +2,12 @@
 @import url('https://rsms.me/inter/inter-ui.css');
 
 @font-face {
+  font-family: "Untitled";
+  src: url("https://storage.googleapis.com/media.urbit.org/fonts/untitled.woff");
+  font-weight: 400;
+}
+
+@font-face {
   font-family: "Source Code Pro";
   src: url("https://storage.googleapis.com/media.urbit.org/fonts/scp-extralight.woff");
   font-weight: 200;
@@ -39,7 +45,7 @@
 
 html, body {
   height: 100%;
-  font-family: "Inter", "Inter UI", sans-serif;
+  font-family: "Untitled", "Untitled", serif;
   @extend .lh-copy, .f7;
   -webkit-font-smoothing: antialiased;
 }
