@@ -56,40 +56,10 @@ main {
 
 a {
   color: black;
-  text-decoration: none;
 }
 
 address,
 .mono {
   font-family: "Source Code Pro", monospace;
   font-style: normal;
-}
-
-footer {
-  margin-top: -2rem;
-}
-
-// new indigo colours
-.new-green1 {
-  color: #009F65;
-}
-
-.bg-custom-green1 {
-  background-color: #33b284;
-}
-
-.b--custom-gray4 {
-  border-color: #ccc;
-}
-
-input[type=email] + span::before {
-  position: absolute;
-  right: 8px;
-  top: -2px;
-}
-
-input[type=email]:valid + span::before {
-  content: '✓';
-  font-family: 'Inter', 'Inter UI', sans-serif;
-  @extend .new-green1;
 }
