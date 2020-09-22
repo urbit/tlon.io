@@ -2,6 +2,16 @@
 @import url('https://rsms.me/inter/inter-ui.css');
 
 @font-face {
+  font-family: 'Untitled';
+  src: url('https://storage.googleapis.com/media.urbit.org/fonts/untitled-serif-web-regular.eot');
+  src: url('https://storage.googleapis.com/media.urbit.org/fonts/untitled-serif-web-regular.eot?#iefix') format('embedded-opentype'),
+       url('https://storage.googleapis.com/media.urbit.org/fonts/untitled-serif-web-regular.woff2') format('woff2'),
+       url('https://storage.googleapis.com/media.urbit.org/fonts/untitled-serif-web-regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "Source Code Pro";
   src: url("https://storage.googleapis.com/media.urbit.org/fonts/scp-extralight.woff");
   font-weight: 200;
@@ -37,32 +47,27 @@
   font-weight: 700;
 }
 
-body {
-  font-family: "Inter", "Inter UI", sans-serif;
-  @extend .lh-copy;
+html, body {
+  height: 100%;
+  font-family: "Untitled", "Untitled", serif;
+  @extend .lh-copy, .f7;
   -webkit-font-smoothing: antialiased;
+}
+
+main {
+  min-height: 100%;
 }
 
 a {
   color: black;
-  border-bottom: 1px solid black;
-  text-decoration: none;
+}
+
+.bg-dusk {
+  background-color: #46292B;
 }
 
 address,
 .mono {
   font-family: "Source Code Pro", monospace;
   font-style: normal;
-}
-
-.employee-directory {
-  p {
-    margin-block-start: 0;
-    margin-block-end: 0;
-    margin: 0;
-    display: block;
-  }
-  img {
-    max-width: 256px;
-  }
 }

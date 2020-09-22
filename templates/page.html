@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block bodyclasses %}class="page"{% endblock bodyclasses %}
+
+{% block content %}
+
+<!-- content -->
+<body class="flex-auto f3-s f6-xl">
+    <article class="measure-wide center pt8 pa4">
+        <p>{{ page.title }}</p>
+    <!-- body -->
+    {{ page.content | safe }}
+    </article>
+</body>
+{% endblock content %}
