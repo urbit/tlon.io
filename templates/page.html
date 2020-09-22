@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block bodyclasses %}class="page"{% endblock bodyclasses %}
+
+{% block content %}
+
+<!-- content -->
+
+<article class="mt4 mb4 c1-13 c4-12-lg measure-wide center">
+    <p>{{ page.title }}</p>
+  <!-- body -->
+  {{ page.content | safe }}
+</article>
+
+{% endblock content %}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- START META -->
+    <meta charset="UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@tloncorporation">
+    <meta name="twitter:creator" content="@tloncorporation">
+    {% block title %}{% endblock title %}
+    {% block description %}{% endblock description %}
+    <!-- END META -->
+
+    <!-- START FAVICON -->
+    <link rel="shortcut icon" type="image/png" href="/favicon.ico"/>
+    <!-- END FAVICON -->
+
+    <!-- START CSS -->
+    <link href="/styles.css" rel="stylesheet" />
+    <!-- END CSS -->
+  </head>
+  <body {% block bodyclasses %} {% endblock bodyclasses %}>
+    {% block content %}
+    {% endblock content %}
+  </body>
+</html>
