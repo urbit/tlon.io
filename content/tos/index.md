@@ -1,10 +1,11 @@
 
 +++
-title = "Terms of Service"
+title = ""
 template = "page.html"
 +++
 
-<h1>Tlon Corporation<br />Urbit Hosting Services<br />Terms of Service</h1>
+<h1>Tlon Corporation<br />Urbit Hosting Services</h1>
+<h2>Terms of Service</h2>
 
 *Last Updated: September 8, 2020*
 
