@@ -5,6 +5,7 @@ date = 2019-11-27
 slug = 'landscape-now'
 [extra]
 author = 'Galen Wolfe-Pauly'
+patp = '~ravmel-ropdyl'
 +++
 
 When I sit down to catch up on what has been going on, I open up Landscape—the interface for my Urbit node.

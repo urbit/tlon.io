@@ -19,5 +19,9 @@ build_search_index = false
 
 [extra]
 # Put all your custom variables here
+
 [extra.author]
 name = "Tlon Corporation"
+
+[extra.patp]
+name = "~zod"

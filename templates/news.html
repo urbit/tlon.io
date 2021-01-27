@@ -22,8 +22,12 @@
 						{{ page.title }}
 					</h3>
 					<div class="py-1">
-						<p class="inline">Galen Wolfe-Pauly</p> 
-						<p class="inline font-mono text-gray-400">~ravmel-ropdyl</p>
+                        {% if page.extra.author %}
+                        <p class="inline">{{page.extra.author}}</p> 
+                        {% endif %}
+                        {% if page.extra.author %}
+                        <p class="inline font-mono text-gray-400">{{page.extra.patp}}</p>
+                        {% endif %}
 					</div>
 					<div class="py-1">
 						<p">{{ page.date | date(format="%B %Y") }}</p> 	
