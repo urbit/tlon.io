@@ -9,7 +9,7 @@ author = 'Galen Wolfe-Pauly'
 
 When I sit down to catch up on what has been going on, I open up Landscape—the interface for my Urbit node.
 
-![Landscape Home](../../static/home.png)
+<img class="mt-8 mb-16 w-full shadow-2xl rounded-md" src="/home.png" alt="Landscape Home Interface">
 
 Landscape is a calm, simple interface for bringing together groups of people to chat, share links, and write notes. 
 
@@ -25,7 +25,7 @@ The combination of Landscape and hosting from Tlon makes it possible for anyone 
 
 If you want to join this new world smoothly, [get on our waitlist](#). If you just want to understand the technology, head to [urbit.org](https://urbit.org). Or read on, and I’ll tell you a bit more about this system we’ve built. We’ll start by looking at what it means for hosting to exist, then we’ll walk through what Landscape is and how we use it.
 
-[Landscape group]
+<img class="mt-8 mb-16 w-full shadow-2xl rounded-md" src="/group.png" alt="Landscape Group Interface">
 
 As Urbit itself started to mature and stabilize, our first challenge was to use it ourselves. This is why we built Landscape. We wanted a simple tool for keeping our community connected and getting things done.
 
@@ -37,7 +37,7 @@ Over the past few months, we’ve been testing this hosting service with friends
 
 So what do you get when we spin up an Urbit for you and drop you into Landscape? Landscape is sort of like a second-cousin of group chat. It’s similar but, ultimately, pretty different and has a much different road ahead. Let’s walk through it.
 
-[Landscape links]
+<img class="mt-8 mb-16 w-full shadow-2xl rounded-md" src="/collections.png" alt="Landscape Collections Interface">
 
 Everything in Landscape starts with a group, which is exactly what it sounds like: a group of people. Each group shares a set of channels, and each channel can be a chat, a stream of links, or a notebook of posts. 
 
@@ -53,7 +53,7 @@ As you can see, there are a lot of permutations just with a small set of feature
 
 We’ve got a few more modules to add to Landscape, better profiles and a mobile app in the near future. We’re constantly making Landscape better, faster, and more fully featured. But even in this early form, Landscape feels great. There’s nothing else that can give you a calm sense of control. Landscape is yours to shape.
 
-[Landscape chat]
+<img class="mt-8 mb-16 w-full shadow-2xl rounded-md" src="/chat.png" alt="Landscape Chat Interface">
 
 A computer should be a bicycle for the mind; an open-ended tool to explore what’s possible. The mainstream services we use are more like a stationary bike in the gym than two wheels to go anywhere.
 
