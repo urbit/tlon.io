@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}<title>{{ page.title }}</title>{% endblock title %}
+{% block bodyclasses %}class="flex-auto f3-s f6-xl"{% endblock bodyclasses %}
+
+{% block content %}
+<header class="measure-wide center ph4 pb4 pt9 sans-serif">
+    <h1 class="title sans-serif fw5 mv0">{{ page.title }}</h1>
+    <p class="author mv0">Author Name</p>
+    <p class="subtitle mv0">{{ page.date }}</p>
+</header>
+
+
+
+<section class="measure-wide center ph4 pb4 serif">
+{{ page.content | safe }}
+</section>
+{% endblock content %}

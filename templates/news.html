@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %}<title>Tlon News</title>{% endblock title %}
+{% block bodyclasses %}class="flex-auto f3-s f6-xl"{% endblock bodyclasses %}
+
+{% block content %}
+<header class="pa9">
+    <h1 class="title sans-serif fw5 mv0">{{ section.title }}</h1>
+    <p class="author sans-serif mv0">Learn more about Tlon’s work, the Urbit community, and other stories</p>
+    <p class="subtitle sans-serif mv0 gray2">Subscribe to Tlon’s Newsletter</p>
+</header>
+
+
+<section class="pa9">
+<h2 class="dib sans-serif f6 normal br3 pv2 ph4 bg-yellow2">New!</h2>
+<section class="new-posts sans-serif">
+  {% for page in section.pages %}	
+		<a href="{{ page.permalink | safe }}">
+		<article class="blog-post">
+			<div class="metadata-column">
+				<h3 class="fw5">{{ page.title }}</h3>
+				<div><p class="inline">Author</p> <p class="inline font-mono text-gray-400">~sampel-sampel</p></div>
+				<time>January 2021</time>
+			</div>
+			<div class="article-preview-column lg:col-span-3 lg:flex">
+				<img class="h-48 w-48 mr-12 lg:flex-initial rounded-xl" src="https://d2w9rnfcy7mm78.cloudfront.net/10410957/original_c4873ad00a542f6a1191f5b4b2607743.jpg">
+				<p class="lg:flex-auto">
+					When I sit down to catch up on what has been going on, I open up Landscape. <br> Landscape is a calm, simple interface for bringing together groups of people to chat, share links and write notes. Landscape does exactly what it appears to do and nothing else. There are no ads or tracking, there ar...
+				</p>
+			</div>
+		</article>
+		</a>
+  {% endfor %}
+</section>
+</section>
+{% endblock content %}

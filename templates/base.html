@@ -4,10 +4,14 @@
     <!-- START META -->
     <meta charset="UTF-8">
     <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="shortcut icon" type="image/png" href="/favicon.ico"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@tloncorporation">
-    <meta name="twitter:creator" content="@tloncorporation">
+    <meta name="twitter:card" content="/twitter.png">
+    <meta property="og:url" content="https://tlon.io">
+    <meta property="og:site_name" content="Tlon">
+    <meta property="og:image" content="/og.png">
+    <meta property="og:description" content="Urbit Hosting from Tlon">
     {% block title %}{% endblock title %}
     {% block description %}{% endblock description %}
     <!-- END META -->
@@ -39,8 +43,16 @@
     </noscript>
     <!-- End Matomo Code -->
   </head>
+
   <body {% block bodyclasses %} {% endblock bodyclasses %}>
+    
+    <nav class="dt w-100 pa9 sans-serif">
+      <a class="dtc v-mid link" href="/"  title="Home">Tlon Corporation</a>
+      <div class="dtc v-mid w-75 tr"><a class="link dib" href="/news">News</a></div>
+    </nav>
+
     {% block content %}
     {% endblock content %}
   </body>
+
 </html>
