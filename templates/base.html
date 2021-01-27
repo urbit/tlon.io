@@ -17,7 +17,7 @@
     <!-- END FAVICON -->
 
     <!-- START CSS -->
-    <link href="/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
     <!-- END CSS -->
 
     <!-- Matomo -->
@@ -39,8 +39,10 @@
     </noscript>
     <!-- End Matomo Code -->
   </head>
-  <body {% block bodyclasses %} {% endblock bodyclasses %}>
+  <body>
+    {% include "partials/nav.html" %}
     {% block content %}
     {% endblock content %}
+    {% include "partials/footer.html" %}
   </body>
 </html>

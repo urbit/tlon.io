@@ -1,3 +1,9 @@
+title = "Tlon"
+description = "Urbit is a personal server built from scratch."
+
+# The default language, used in RSS
+default_language = "en"
+
 # The URL the site will be built for
 base_url = "https://tlon.io"
 

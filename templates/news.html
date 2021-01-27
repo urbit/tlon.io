@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block title %}<title>Tlon News</title>{% endblock title %}
+{% block content %}
+
+<header class="p-8 lg:p-16 grid justify-items-stretch">
+    <h1 class="text-3xl font-medium pb-2">Tlon News</h1>
+    <p class="pb-2">Learn more about Tlon’s work, the Urbit community, and other stories</p>
+    <a class="text-gray-400" href="#">Subscribe to Tlon’s Newsletter</a>
+</header>
+
+  <section class="p-8 lg:p-16">
+
+	<h2 class="inline-block bg-yellow-300 py-4 px-6 rounded-xl mb-8 lg:mb-12">New!</h2>
+	
+	<section class="new-posts">
+		{% for page in section.pages %}
+		<a href="{{ page.permalink | safe }}">
+			<article class="blog-post lg:grid lg:grid-cols-3 gap-8 py-8">
+
+				<div class="metadata-column lg:col-span-1 pb-4">
+					<h3 class="py-1 font-semibold">
+						{{ page.title }}
+					</h3>
+					<div class="py-1">
+						<p class="inline">Galen Wolfe-Pauly</p> 
+						<p class="inline font-mono text-gray-400">~ravmel-ropdyl</p>
+					</div>
+					<div class="py-1">
+						<p">{{ page.date | date(format="%B %Y") }}</p> 	
+					</div>
+				</div>
+				<img class="w-full h-48 lg:h-48 lg:w-100 rounded-xl lg:col-span-1 lg:flex mb-4" src="https://d2w9rnfcy7mm78.cloudfront.net/10410957/original_c4873ad00a542f6a1191f5b4b2607743.jpg">
+				<div class="article-preview-column lg:col-span-1 max-w-sm">
+					<p>{{ page.description }}</p>
+				</div>
+			</article>
+        </a>
+        {% endfor %}
+    </section>
+
+  </section>
+{% endblock content %}
