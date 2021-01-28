@@ -19,7 +19,7 @@ Landscape does exactly what it appears to do and nothing else. There are no ads 
 
 Conventional apps and services are always frantically trying to keep you around, pestering you to keep using them, hoarding your data, and reselling it to who-knows-who. Landscape is a tool, plain and simple.
  
-Landscape is a purpose-built piece of software because it runs on my Urbit: a personal server I own and control completely. I own my Urbit with a private key, expect it to last forever, and it’s source is completely open for me to tinker with. Urbit isn’t an app or a service: it’s a new decentralized network and computing system designed from scratch to be owned, controlled and improved by the people who use it. 
+Landscape is a purpose-built piece of software because it runs on my Urbit: a personal server I own and control completely. I own my Urbit with a private key, expect it to last forever, and its' source is completely open for me to tinker with. Urbit isn’t an app or a service: it’s a new decentralized network and computing system designed from scratch to be owned, controlled and improved by the people who use it. 
  
 We helped to build Urbit over the past few years because we wanted a new foundation for how we communicate and collaborate that reflects the people that depend on it. This vision can’t be fully realized without both new technology and an approachable, easy to use interface for it.
 
