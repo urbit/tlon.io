@@ -1,77 +1,28 @@
-@import "indigo";
-@import url('https://rsms.me/inter/inter-ui.css');
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
 
-@font-face {
-  font-family: 'Untitled';
-  src: url('https://storage.googleapis.com/media.urbit.org/fonts/untitled-serif-web-regular.eot');
-  src: url('https://storage.googleapis.com/media.urbit.org/fonts/untitled-serif-web-regular.eot?#iefix') format('embedded-opentype'),
-       url('https://storage.googleapis.com/media.urbit.org/fonts/untitled-serif-web-regular.woff2') format('woff2'),
-       url('https://storage.googleapis.com/media.urbit.org/fonts/untitled-serif-web-regular.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
+@supports (font-variation-settings: normal) {
+html { font-family: 'Inter var', sans-serif; }
 }
 
 @font-face {
-  font-family: "Source Code Pro";
-  src: url("https://storage.googleapis.com/media.urbit.org/fonts/scp-extralight.woff");
-  font-weight: 200;
+    font-family: 'Untitled-Serif';
+    src: url('https://storage.googleapis.com/media.urbit.org/fonts/untitled-serif-web-regular.eot');
+    src: url('https://storage.googleapis.com/media.urbit.org/fonts/untitled-serif-web-regular.eot?#iefix') format('embedded-opentype'),
+         url('https://storage.googleapis.com/media.urbit.org/fonts/untitled-serif-web-regular.woff2') format('woff2'),
+         url('https://storage.googleapis.com/media.urbit.org/fonts/untitled-serif-web-regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.editorial > p {
+    @media (min-width: 1024px) { width: 58.333333%; }
+    margin: auto;
+    font-family: "Untitled-Serif", serif;
+    -webkit-font-smoothing: antialiased;
+    margin-bottom: 2rem;
 }
 
-@font-face {
-  font-family: "Source Code Pro";
-  src: url("https://storage.googleapis.com/media.urbit.org/fonts/scp-light.woff");
-  font-weight: 300;
-}
-
-@font-face {
-  font-family: "Source Code Pro";
-  src: url("https://storage.googleapis.com/media.urbit.org/fonts/scp-regular.woff");
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "Source Code Pro";
-  src: url("https://storage.googleapis.com/media.urbit.org/fonts/scp-medium.woff");
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: "Source Code Pro";
-  src: url("https://storage.googleapis.com/media.urbit.org/fonts/scp-bold.woff");
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: "Source Code Pro";
-  src: url("https://storage.googleapis.com/media.urbit.org/fonts/scp-black.woff");
-  font-weight: 700;
-}
-
-html, body {
-  height: 100%;
-  font-family: "Untitled", "Untitled", serif;
-  @extend .lh-copy, .f7;
-  -webkit-font-smoothing: antialiased;
-}
-
-main {
-  min-height: 100%;
-}
-
-a {
-  color: black;
-}
-
-.bg-dusk {
-  background-color: #46292B;
-}
-
-.bg-blue {
-  background-color: #219DFF;
-}
-
-address,
-.mono {
-  font-family: "Source Code Pro", monospace;
-  font-style: normal;
+.editorial > p > a {
+  text-decoration: underline;
 }

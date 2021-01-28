@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}
+  <meta name="og:title" content="{{ page.title }} - {{ config.title }}">
+  <title>{{ page.title }} - {{ config.title }}</title>
+{% endblock title %}
+{% block content %}
+{% include "partials/nav.html" %}
+<article class="p-8 lg:p-16 lg:w-10/12 container mx-auto">
+
+    <header class="box-border lg:w-7/12 pb-16 m-auto">
+        <h1 class="text-3xl font-medium pb-2">{{ page.title }}</h1>
+        {% if page.extra.author %}
+        <p class="pb-2">{{page.extra.author}}</p>
+        {% endif %}
+        <p class="text-gray-400" href="#">{{ page.date | date(format="%B %Y") }}</p>
+    </header>
+
+    <section class="editorial pt-16 leading-relaxed text-lg lg:text-xl font-serif">
+        {{ page.content | safe }}
+    </section>
+    
+    <section class="box-border p-8 lg:p-16 grid justify-items-stretch">
+        <a class="bg-blue-100 text-blue-800 py-4 px-6 rounded-xl justify-self-center" href="https://urbit.typeform.com/to/zQ9QOV3Z#source=tlon_io">Join the waitlist</a>
+    </section>
+</article>
+{% endblock content %}
