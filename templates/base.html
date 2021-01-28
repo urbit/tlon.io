@@ -1,26 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- START META -->
     <meta charset="UTF-8">
+
+    <link rel="shortcut icon" type="image/png" href="/favicon.ico"/>
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="twitter:card" content="summary_large_image">
+
     <meta name="twitter:site" content="@tloncorporation">
+    <meta name="twitter:card" content="/twitter.png">
     <meta name="twitter:creator" content="@tloncorporation">
+
+    <meta property="og:url" content="https://tlon.io">
+    <meta property="og:site_name" content="Tlon">
+    <meta property="og:image" content="/og.png">
+    <meta property="og:description" content="Urbit Hosting from Tlon">
     {% block title %}{% endblock title %}
     {% block description %}{% endblock description %}
-    <!-- END META -->
 
-    <!-- START FAVICON -->
-    <link rel="shortcut icon" type="image/png" href="/favicon.ico"/>
-    <!-- END FAVICON -->
-
-    <!-- START CSS -->
     <link rel="stylesheet" href="/style.css">
-    <!-- END CSS -->
 
-    <!-- Matomo -->
     <script type="text/javascript">
       var _paq = window._paq || [];
       /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
@@ -37,7 +36,7 @@
     <noscript>
       <p><img src="https://analytics.urbit.org/matomo.php?idsite=3&amp;rec=1" style="border:0;" alt="" /></p>
     </noscript>
-    <!-- End Matomo Code -->
+
   </head>
   <body>
     {% block content %}
