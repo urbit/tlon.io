@@ -22,3 +22,7 @@ html { font-family: 'Inter var', sans-serif; }
     -webkit-font-smoothing: antialiased;
     margin-bottom: 2rem;
 }
+
+.editorial > p > a {
+  text-decoration: underline;
+}

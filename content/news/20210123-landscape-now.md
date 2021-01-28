@@ -47,6 +47,8 @@ By customizing your channels itâ€™s easy to create a shared digital space thatâ€
 
 As a small company, we keep notebooks for ongoing projects and updates, chats for our different streams of work, and link collections of references for discussion. 
 
+<img class="mt-8 mb-16 w-full shadow-2xl rounded-md" alt="Landscape Notebooks Editing Interface" src="https://storage.googleapis.com/media.urbit.org/tlon/news/20210123-landscape-now/notebooks.png" >
+
 We use a group sort of like an informal magazine to host The Index, a notebook that collects all the most recent activity on Urbit. 
 
 A few friends use Landscape to play board games together in a notebook and chat in a group. A research collective tracking COVID keeps a few active links collections and a chat. A group of Urbit developers keep notebooks about their ongoing projects, use chats to answer questions, and link collections to track source code. 
