@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block title %}<title>Tlon News</title>{% endblock title %}
 {% block content %}
-
+{% include "partials/nav.html" %}
 <header class="p-8 lg:p-16 grid justify-items-stretch">
     <h1 class="text-3xl font-medium pb-2">Tlon News</h1>
     <p class="pb-2">Learn more about Tlon’s work, the Urbit community, and other stories</p>
@@ -10,13 +10,12 @@
 
   <section class="p-8 lg:p-16">
 
-	<h2 class="inline-block bg-yellow-300 py-4 px-6 rounded-xl mb-8 lg:mb-12">New!</h2>
+	<h2 class="mb-8 lg:mb-12 text-gray-400">All Stories</h2>
 	
 	<section class="new-posts">
 		{% for page in section.pages %}
 		<a href="{{ page.permalink | safe }}">
-			<article class="blog-post lg:grid lg:grid-cols-3 gap-8 py-8">
-
+			<article class="blog-post gap-8 py-8 lg:w-1/3">
 				<div class="metadata-column lg:col-span-1 pb-4">
 					<h3 class="py-1 font-semibold">
 						{{ page.title }}
@@ -25,18 +24,13 @@
                         {% if page.extra.author %}
                         <p class="inline">{{page.extra.author}}</p> 
                         {% endif %}
-                        {% if page.extra.author %}
-                        <p class="inline font-mono text-gray-400">{{page.extra.ship}}</p>
-                        {% endif %}
 					</div>
 					<div class="py-1">
 						<p">{{ page.date | date(format="%B %Y") }}</p> 	
 					</div>
 				</div>
-				<img class="w-full h-48 lg:h-48 lg:w-100 rounded-xl lg:col-span-1 lg:flex mb-4 object-cover border-black border-opacity-20 border border-solid" src="{% if page.extra.postimage %}{{ page.extra.postimage }}{% endif %}">
-				<div class="article-preview-column lg:col-span-1 max-w-sm">
-					<p>{{ page.description }}</p>
-				</div>
+				<img class="w-full lg:h-48 lg:h-72 lg:w-100 rounded-xl lg:flex mb-4 object-cover border-black border-opacity-20 border border-solid" src="{% if page.extra.postimage %}{{ page.extra.postimage }}{% endif %}">
+				<p class="text-gray-600">{{ page.description }}</p>
 			</article>
         </a>
         {% endfor %}

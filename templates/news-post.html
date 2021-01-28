@@ -3,8 +3,8 @@
   <meta name="og:title" content="{{ page.title }} - {{ config.title }}">
   <title>{{ page.title }} - {{ config.title }}</title>
 {% endblock title %}
-
 {% block content %}
+{% include "partials/nav.html" %}
 <article class="p-8 lg:p-16 lg:w-10/12 container mx-auto">
 
     <header class="box-border lg:w-7/12 pb-16 m-auto">

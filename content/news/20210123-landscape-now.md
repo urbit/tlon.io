@@ -1,12 +1,12 @@
 +++
 title = 'Landscape, Now'
-description = 'When I sit down to catch up on what has been going on, I open up Landscape—the interface for my Urbit node.'
+description = 'Landscape does exactly what it appears to do and nothing else. There are no ads or tracking, there are no gimmicks to try to keep you engaged or addicted, and there’s no quiet uncertainty that Landscape might disappear or change drastically.'
 date = 2019-11-27
 slug = 'landscape-now'
 [extra]
 author = 'Galen Wolfe-Pauly'
 ship = '~ravmel-ropdyl'
-postimage = 'https://storage.googleapis.com/media.urbit.org/tlon/news/20210123-landscape-now/cover.png'
+postimage = 'https://storage.googleapis.com/media.urbit.org/tlon/news/20210123-landscape-now/cover.jpg'
 +++
 
 When I sit down to catch up on what has been going on, I open up Landscape—the interface for my Urbit node.
