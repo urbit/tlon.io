@@ -1,7 +1,7 @@
 +++
 title = 'Landscape, Now'
 description = 'Landscape does exactly what it appears to do and nothing else. There are no ads or tracking, there are no gimmicks to try to keep you engaged or addicted, and there’s no quiet uncertainty that Landscape might disappear or change drastically.'
-date = 2019-11-27
+date = 2021-01-28
 slug = 'landscape-now'
 [extra]
 author = 'Galen Wolfe-Pauly'
