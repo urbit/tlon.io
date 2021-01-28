@@ -16,7 +16,7 @@ html { font-family: 'Inter var', sans-serif; }
   }
 
 .editorial > p {
-    max-width: 50ch;
+    @media (min-width: 1024px) { width: 58.333333%; }
     margin: auto;
     font-family: "Untitled-Serif", serif;
     -webkit-font-smoothing: antialiased;

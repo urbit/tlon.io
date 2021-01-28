@@ -5,12 +5,13 @@ date = 2019-11-27
 slug = 'landscape-now'
 [extra]
 author = 'Galen Wolfe-Pauly'
-patp = '~ravmel-ropdyl'
+ship = '~ravmel-ropdyl'
+postimage = 'https://storage.googleapis.com/media.urbit.org/tlon/news/20210123-landscape-now/cover.png'
 +++
 
 When I sit down to catch up on what has been going on, I open up Landscape—the interface for my Urbit node.
 
-<img class="mt-8 mb-16 w-full shadow-2xl rounded-md" src="/home.png" alt="Landscape Home Interface">
+<img class="mt-8 mb-16 w-full shadow-2xl rounded-md" alt="Landscape Home Interface" src="https://storage.googleapis.com/media.urbit.org/tlon/news/20210123-landscape-now/home.png">
 
 Landscape is a calm, simple interface for bringing together groups of people to chat, share links, and write notes. 
 
@@ -24,9 +25,9 @@ We helped to build Urbit over the past few years because we wanted a new foundat
 
 The combination of Landscape and hosting from Tlon makes it possible for anyone to start using Urbit to build communities, communicate, and stay connected on a foundation they actually own. We’re really excited to let people take control over their computing again.
 
-If you want to join this new world smoothly, [get on our waitlist](#). If you just want to understand the technology, head to [urbit.org](https://urbit.org). Or read on, and I’ll tell you a bit more about this system we’ve built. We’ll start by looking at what it means for hosting to exist, then we’ll walk through what Landscape is and how we use it.
+If you want to join this new world smoothly, [get on our waitlist](https://urbit.typeform.com/to/zQ9QOV3Z#source=tlon_io). If you just want to understand the technology, head to [urbit.org](https://urbit.org). Or read on, and I’ll tell you a bit more about this system we’ve built. We’ll start by looking at what it means for hosting to exist, then we’ll walk through what Landscape is and how we use it.
 
-<img class="mt-8 mb-16 w-full shadow-2xl rounded-md" src="/group.png" alt="Landscape Group Interface">
+<img class="mt-8 mb-16 w-full shadow-2xl rounded-md" alt="Landscape Group Interface" src="https://storage.googleapis.com/media.urbit.org/tlon/news/20210123-landscape-now/group.png">
 
 As Urbit itself started to mature and stabilize, our first challenge was to use it ourselves. This is why we built Landscape. We wanted a simple tool for keeping our community connected and getting things done.
 
@@ -38,7 +39,7 @@ Over the past few months, we’ve been testing this hosting service with friends
 
 So what do you get when we spin up an Urbit for you and drop you into Landscape? Landscape is sort of like a second-cousin of group chat. It’s similar but, ultimately, pretty different and has a much different road ahead. Let’s walk through it.
 
-<img class="mt-8 mb-16 w-full shadow-2xl rounded-md" src="/collections.png" alt="Landscape Collections Interface">
+<img class="mt-8 mb-16 w-full shadow-2xl rounded-md" alt="Landscape Collections Interface" src="https://storage.googleapis.com/media.urbit.org/tlon/news/20210123-landscape-now/collections.png" >
 
 Everything in Landscape starts with a group, which is exactly what it sounds like: a group of people. Each group shares a set of channels, and each channel can be a chat, a stream of links, or a notebook of posts. 
 
@@ -54,7 +55,7 @@ As you can see, there are a lot of permutations just with a small set of feature
 
 We’ve got a few more modules to add to Landscape, better profiles and a mobile app in the near future. We’re constantly making Landscape better, faster, and more fully featured. But even in this early form, Landscape feels great. There’s nothing else that can give you a calm sense of control. Landscape is yours to shape.
 
-<img class="mt-8 mb-16 w-full shadow-2xl rounded-md" src="/chat.png" alt="Landscape Chat Interface">
+<img class="mt-8 mb-16 w-full shadow-2xl rounded-md" alt="Landscape Chat Interface" src="https://storage.googleapis.com/media.urbit.org/tlon/news/20210123-landscape-now/chat.png">
 
 A computer should be a bicycle for the mind; an open-ended tool to explore what’s possible. The mainstream services we use are more like a stationary bike in the gym than two wheels to go anywhere.
 

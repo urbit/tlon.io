@@ -23,5 +23,8 @@ build_search_index = false
 [extra.author]
 name = "Tlon Corporation"
 
-[extra.patp]
+[extra.ship]
 name = "~zod"
+
+[extra.postimage]
+name = "https://storage.googleapis.com/media.urbit.org/tlon/placeholder.png"

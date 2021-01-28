@@ -26,14 +26,14 @@
                         <p class="inline">{{page.extra.author}}</p> 
                         {% endif %}
                         {% if page.extra.author %}
-                        <p class="inline font-mono text-gray-400">{{page.extra.patp}}</p>
+                        <p class="inline font-mono text-gray-400">{{page.extra.ship}}</p>
                         {% endif %}
 					</div>
 					<div class="py-1">
 						<p">{{ page.date | date(format="%B %Y") }}</p> 	
 					</div>
 				</div>
-				<img class="w-full h-48 lg:h-48 lg:w-100 rounded-xl lg:col-span-1 lg:flex mb-4" src="https://d2w9rnfcy7mm78.cloudfront.net/10410957/original_c4873ad00a542f6a1191f5b4b2607743.jpg">
+				<img class="w-full h-48 lg:h-48 lg:w-100 rounded-xl lg:col-span-1 lg:flex mb-4 object-cover border-black border-opacity-20 border border-solid" src="{% if page.extra.postimage %}{{ page.extra.postimage }}{% endif %}">
 				<div class="article-preview-column lg:col-span-1 max-w-sm">
 					<p>{{ page.description }}</p>
 				</div>
