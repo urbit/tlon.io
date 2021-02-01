@@ -3,20 +3,26 @@
   <head>
     <meta charset="UTF-8">
 
+    {% block title %}{% endblock title %}
+    {% block description %}{% endblock description %}
+
     <link rel="shortcut icon" type="image/png" href="/favicon.ico"/>
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="twitter:site" content="@tloncorporation">
-    <meta name="twitter:card" content="https://storage.googleapis.com/media.urbit.org/tlon/twitter.png">
-    <meta name="twitter:creator" content="@tloncorporation">
-
     <meta property="og:url" content="https://tlon.io">
-    <meta property="og:site_name" content="Tlon">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Tlon Corporation">
+    <meta property="og:description" content="Tlon builds infrastructure that is technically excellent, architecturally sound, and aesthetically beautiful.">
     <meta property="og:image" content="https://storage.googleapis.com/media.urbit.org/tlon/og.png">
-    <meta property="og:description" content="Urbit Hosting from Tlon">
-    {% block title %}{% endblock title %}
-    {% block description %}{% endblock description %}
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@tloncorporation">
+    <meta property="twitter:domain" content="tlon.io">
+    <meta property="twitter:url" content="https://tlon.io">
+    <meta name="twitter:title" content="Tlon Corporation">
+    <meta name="twitter:description" content="Tlon builds infrastructure that is technically excellent, architecturally sound, and aesthetically beautiful.">
+    <meta name="twitter:image" content="https://storage.googleapis.com/media.urbit.org/tlon/twitter.png">
 
     <link rel="stylesheet" href="/style.css">
 
