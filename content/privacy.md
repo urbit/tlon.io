@@ -5,7 +5,7 @@ template = "privacy.html"
 
 **Scope of this Privacy Policy**
 
-Tlon Corporation ('Tlon,' 'we,' 'our,' and/or 'us') values the privacy of individuals who use Urbit software, our websites, and related services (collectively, our 'Services'). This privacy policy (the 'Privacy Policy') explains how we collect, use, and share information from users of our Services ('Users'). By using our Services, you agree to the collection, use, disclosure, and procedures this Privacy Policy describes. Beyond the Privacy Policy, your use of our Services is also subject to our Terms of Service.
+Tlon Corporation ('Tlon,' 'we,' 'our,' and/or 'us') values the privacy of individuals who use Urbit software, our websites, and related services (collectively, our 'Services'). This privacy policy (the 'Privacy Policy') explains how we collect, use, and share information from users of our Services ('Users'). By using our Services, you agree to the collection, use, disclosure, and procedures this Privacy Policy describes. Beyond the Privacy Policy, your use of our Services is also subject to our [Terms of Service](/terms).
 
 **Information we collect**
 
@@ -36,7 +36,7 @@ We use the information we collect:
 3. To communicate with you, to provide you with updates and other information relating to the Services, to provide information that you request, to respond to comments and questions, and otherwise provide customer support;
 4. To find and prevent fraud;
 5. To respond to trust and safety issues that may arise;
-6. For compliance purposes, including enforcing our Terms of Service or other legal rights, or as may be required by applicable laws and regulations or requested by any judicial process or governmental agency; and
+6. For compliance purposes, including enforcing our [Terms of Service](/terms) or other legal rights, or as may be required by applicable laws and regulations or requested by any judicial process or governmental agency; and
 7. For other purposes for which we provide specific notice at the time of the collection of the information.
 
 
