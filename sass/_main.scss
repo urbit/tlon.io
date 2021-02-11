@@ -26,3 +26,8 @@ html { font-family: 'Inter var', sans-serif; }
 .editorial > p > a {
   text-decoration: underline;
 }
+
+// replaces`border-black border-opacity-20 border border-solid` for image content
+.custom-inset-border {
+  box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.1);
+}
