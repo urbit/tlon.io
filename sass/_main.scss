@@ -15,7 +15,7 @@ html { font-family: 'Inter var', sans-serif; }
     font-style: normal;
   }
 
-.editorial > p {
+.editorial > p, figcaption {
     @media (min-width: 1024px) { width: 58.333333%; }
     margin: auto;
     font-family: "Untitled-Serif", serif;
@@ -25,4 +25,8 @@ html { font-family: 'Inter var', sans-serif; }
 
 .editorial > p > a {
   text-decoration: underline;
+}
+
+.editorial > p > code {
+  font-size: medium;
 }
