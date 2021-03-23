@@ -9,7 +9,7 @@ ship = '~simfur-ritwed'
 postimage = 'https://d2w9rnfcy7mm78.cloudfront.net/11282074/original_88a8568b72fe64f41402d8e7d57dae71.jpg'
 +++
 
-<img class="my-12 w-full" alt="Landscape Home Interface" src="https://d2w9rnfcy7mm78.cloudfront.net/11282074/original_88a8568b72fe64f41402d8e7d57dae71.jpg">
+<img class="my-12 w-full" alt="Landscape Home Interface" src="https://d2w9rnfcy7mm78.cloudfront.net/11294907/original_366193f85f61caae85229bb6f64af871.jpg">
 
 It’s been almost a year since we released OS1, the first public draft of Landscape, into the wider world of the Urbit network. From inside the project, it feels like much more time has elapsed. When you’re focused on the task of building a new world, it can be easy to forget just how far you’ve come. 
 
@@ -19,9 +19,7 @@ This gets fractal — each new piece of code, visual design, or UX decision made
 
 One year ago, Urbit itself was slow and buggy, and the social dimension was almost entirely self-referential. There were a few chats and notebooks where people could gather, but almost all the discussions were about technical improvements to Urbit itself, and almost all the participants were Urbit developers or Tlon employees. It’s been utterly fascinating to see an entire social universe grow so quickly, and in ways we often didn’t expect, all from the simple, stripped-down tool we call Landscape.
 
-<img class="mt-12 w-4/5 m-auto" alt="Landscape Home Interface" src="https://d2w9rnfcy7mm78.cloudfront.net/11287068/original_d3939f97f9bb36dabdbd0eba9521036a.jpg?1616493194?bc=0">
-
-<figcaption class="font-sans text-base mt-4 mb-12 text-gray-400">Illustration: Romina Malta (<span class="font-mono">~natnex-ronret<span>)</figcaption>
+<img class="my-12 w-4/5 m-auto" alt="Landscape Home Interface" src="https://d2w9rnfcy7mm78.cloudfront.net/11294904/original_d44e9ec6d0ab05396863e9b73892c25e.jpg">
 
 First of all, Landscape has been a success. We’ve gone from under 10 public groups when we launched OS1, to over 200 today. Those are the ones we know about; there are almost certainly more. 
 
@@ -37,11 +35,11 @@ The creativity of Urbit pilots in using Landscape’s collection of primitives f
 
 It’s early days yet, but we’ve seen some interesting tweaks to the permissions suite and the different kinds of Urbit ID in order to provide differing levels of trust and anonymity. On the one hand, there are groups for galaxy and star holders, who attest to their ownership of these Urbit IDs in order to join. On the other, we saw an interesting experiment in ‘Comet Thunderdome’ under which anonymity was mandatory in order to provide a no-holds-barred environment. On a broader level, though, the fact that there are secret places on the network 
 
-Intellectual or political siloing happens less than expected. This could change as the network grows — maybe our early adopters are just weird — but people are curious, and the fact that groups are user-owned makes for a genuine politeness that’s lacking in the corporate fishbowls of social media. There’s a difference between being a tourist in a country with weird laws and customs, and being suddenly stuck there without a way to go home. There’s also a subtle difference between an opt-in mentality, where you decide to only hang out in places that affirm your values, and an opt-out one, where you explore freely, and occasionally withdraw from a corner of the network where the dissonance between your values and the locals’ is just too great. We’ve thought about this gradual continuum of norms as a likely emergent property of star-based communities, but it’s gratifying to see it showing up already in the wilds of the pilot-owned network. 
+Intellectual or political siloing happens less than expected. This could change as the network grows — maybe our early adopters are just weird — but people are curious, and the fact that groups are user-owned makes for a genuine politeness that’s lacking in the corporate fishbowls of social media. There’s a difference between being a tourist in a country with weird laws and customs, and being suddenly stuck there without a way to go home. There’s also a subtle difference between an opt-in mentality, where you decide to only hang out in places that affirm your values, and an opt-out one, where you explore freely, and occasionally withdraw from a corner of the network where the dissonance between your values and the locals’ is just too great. We’ve thought about this gradual continuum of norms as a [likely emergent property of star-based communities](https://urbit.org/blog/the-missing-middle/), but it’s gratifying to see it showing up already in the wilds of the pilot-owned network. 
 
 One might expect that the ability to leave a group and start your own results in lots of ragequits. The reality, as far as we’ve seen, is quite the opposite. We’re not sure if it’s because simply having the option makes people calmer, or because moderation isn’t outsourced to faraway corporate overlords, but even situations that do end with one person leaving tend towards the polite.
 
-<img class="my-12 w-4/5 m-auto" alt="Landscape Home Interface" src="https://d2w9rnfcy7mm78.cloudfront.net/11287069/original_be1681dc76516aba30e5af7951f8ac10.jpg?1616493194?bc=0">
+<img class="my-12 w-4/5 m-auto" alt="Landscape Home Interface" src="https://d2w9rnfcy7mm78.cloudfront.net/11294905/original_9b59fced1155f4cbc261d5b3c5566c7b.jpg">
 
 Many Landscape groups have different, sometimes very explicit rules for the kinds of conversation they want to foster. The range of tone is interesting; there are serious religious discussions and utterly anarchic shitposting—sometimes from the same people; the difference is the venue, and the ‘signs on the wall’ there. We think this is important, because one of the flattening effects of social media is to make every aspect of a given online identity legible across contexts. At its worst, this flattening creates online mobs, but even before things get that bad, our social relations suffer. The all-seeing eye over your behavior in a neighborhood group, event pages, and discussions with family members, coworkers, fellow hobbyists elide the fact that we’re all complicated people, and that our behavior and affect is necessary contextual. 
 
@@ -59,4 +57,6 @@ If you want to bounce group ideas off other pilots, check out the Community Form
 
 To advertise your public group, go make a post in the Directory notebook in `~bollug-worlus/urbit-index`. 
 
-Come start a group for you and your friends. It’s really that simple. 
+Come start a group for you and your friends. It’s really that simple.
+
+<figcaption class="font-sans text-base mt-24 text-gray-400">Illustrations: Romina Malta (<span class="font-mono">~natnex-ronret<span>)</figcaption>
