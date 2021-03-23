@@ -5,7 +5,7 @@
 <header class="p-8 lg:p-16">
     <h1 class="text-3xl font-medium pb-2">Tlon News</h1>
     <p class="pb-2">Learn more about Tlon’s work, the Urbit community, and other stories</p>
-    <a class="text-blue-400" href="https://urbit.us11.list-manage.com/subscribe?u=972a03db9e0c6c25bb58de8c8&id=66e4c17e5d">Subscribe to Tlon’s Newsletter</a>
+    <a class="text-blue-800" href="https://urbit.us11.list-manage.com/subscribe?u=972a03db9e0c6c25bb58de8c8&id=66e4c17e5d">Subscribe to Tlon’s Newsletter</a>
 </header>
 
   <section class="p-8 lg:p-16">
@@ -30,8 +30,9 @@
 						<p class="text-gray-400">{{ page.date | date(format="%B %Y") }}</p> 	
 					</div>
 				</div>
-				<img class="w-full lg:h-48 lg:h-72 lg:w-100 rounded-xl lg:flex mb-4 object-cover custom-inset-border" src="{% if page.extra.postimage %}{{ page.extra.postimage }}{% endif %}">
-				<p class="text-gray-600">{{ page.description }}</p>
+				<img class="w-full lg:h-48 lg:h-72 lg:w-100 rounded-xl lg:flex mb-4 object-cover border-black border-opacity-20 border border-solid" src="{% if page.extra.postimage %}{{ page.extra.postimage }}{% endif %}">
+				<p class="text-gray-600 mb-8">{{ page.description }}</p>
+				<a class="bg-blue-100 text-blue-800 py-4 px-6 rounded-xl" href="{{ page.permalink | safe }}">Continue Reading</a>
 			</article>
         {% endfor %}
     </section>
