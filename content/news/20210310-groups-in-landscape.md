@@ -21,7 +21,7 @@ One year ago, Urbit itself was slow and buggy, and the social dimension was almo
 
 <img class="mt-12 w-4/5 m-auto" alt="Landscape Home Interface" src="https://d2w9rnfcy7mm78.cloudfront.net/11287068/original_d3939f97f9bb36dabdbd0eba9521036a.jpg?1616493194?bc=0">
 
-<figcaption class="font-sans text-base mt-4 mb-12 text-gray-400">Romina Malta</figcaption>
+<figcaption class="font-sans text-base mt-4 mb-12 text-gray-400">Illustration: Romina Malta (<span class="font-mono">~natnex-ronret<span>)</figcaption>
 
 First of all, Landscape has been a success. We’ve gone from under 10 public groups when we launched OS1, to over 200 today. Those are the ones we know about; there are almost certainly more. 
 
@@ -53,6 +53,10 @@ Over time, we expect both opt-in Landscape features and entirely new, other clie
 
 Landscape has a lot of features yet to incorporate, and there’s other work being done by both Tlon and community developers that has the potential to slot into Landscape in various ways ([WebRTC](https://grants.urbit.org/proposals/21131866-webrtc-gall-agent-and-external-app), i.e. p2p video connections mediated by Urbit IDs, is coming along nicely). But there’s also an entire universe of other potential ways to craft a client; each of those will perform its own speedrun, and discover its own quirks and challenges. 
 
-The best way to experience both what the community has already built on Urbit, and see what’s possible, is to jump in and create a group yourself! Whatever you’re into can’t possibly be weirder than the Weirdness Unit. If you want to bounce group ideas off other pilots, check out the Community Formation channel in ~bitbet-bolbel/urbit-community. To advertise your public group, go make a post in the Directory notebook in `~bollug-worlus/urbit-index`. 
+The best way to experience both what the community has already built on Urbit, and see what’s possible, is to jump in and create a group yourself! Whatever you’re into can’t possibly be weirder than the Weirdness Unit. 
+
+If you want to bounce group ideas off other pilots, check out the Community Formation channel in `~bitbet-bolbel/urbit-community`. 
+
+To advertise your public group, go make a post in the Directory notebook in `~bollug-worlus/urbit-index`. 
 
 Come start a group for you and your friends. It’s really that simple. 
