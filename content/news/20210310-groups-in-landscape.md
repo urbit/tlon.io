@@ -1,12 +1,12 @@
 +++
-title = 'Groups in Landscape'
+title = 'Landscape: Primitives and Communities'
 description = 'It’s been almost a year since we released OS1, the first public draft of Landscape, into the wider world of the Urbit network. From inside the project, it feels like much more time has elapsed. When you’re focused on the task of building a new world, it can be easy to forget just how far you’ve come.'
 date = 2021-03-10
 slug = 'groups-in-landscape'
 [extra]
 author = 'Nicholas Simmons'
 ship = '~simfur-ritwed'
-postimage = 'https://d2w9rnfcy7mm78.cloudfront.net/11282074/original_88a8568b72fe64f41402d8e7d57dae71.jpg'
+postimage = 'https://d2w9rnfcy7mm78.cloudfront.net/11294907/original_366193f85f61caae85229bb6f64af871.jpg'
 +++
 
 <img class="my-12 w-full" alt="Landscape Home Interface" src="https://d2w9rnfcy7mm78.cloudfront.net/11294907/original_366193f85f61caae85229bb6f64af871.jpg">
