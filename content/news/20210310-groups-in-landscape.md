@@ -9,7 +9,7 @@ ship = '~simfur-ritwed'
 postimage = 'https://d2w9rnfcy7mm78.cloudfront.net/11294907/original_366193f85f61caae85229bb6f64af871.jpg'
 +++
 
-<img class="my-12 w-full" alt="Landscape Home Interface" src="https://d2w9rnfcy7mm78.cloudfront.net/11294907/original_366193f85f61caae85229bb6f64af871.jpg">
+<img class="my-12 w-full" alt="Landscape Home Interface" src="https://d2w9rnfcy7mm78.cloudfront.net/11304652/original_a227d641de8c706a4adb859f65a0d32a.jpg?1616593280?bc=0">
 
 It’s been almost a year since we released OS1, the first public draft of Landscape, into the wider world of the Urbit network. From inside the project, it feels like much more time has elapsed. When you’re focused on the task of building a new world, it can be easy to forget just how far you’ve come. 
 
@@ -19,7 +19,7 @@ This gets fractal — each new piece of code, visual design, or UX decision made
 
 One year ago, Urbit itself was slow and buggy, and the social dimension was almost entirely self-referential. There were a few chats and notebooks where people could gather, but almost all the discussions were about technical improvements to Urbit itself, and almost all the participants were Urbit developers or Tlon employees. It’s been utterly fascinating to see an entire social universe grow so quickly, and in ways we often didn’t expect, all from the simple, stripped-down tool we call Landscape.
 
-<img class="my-12 w-4/5 m-auto" alt="Landscape Home Interface" src="https://d2w9rnfcy7mm78.cloudfront.net/11294904/original_d44e9ec6d0ab05396863e9b73892c25e.jpg">
+<img class="my-12 w-4/5 m-auto" alt="Landscape Home Interface" src="https://d2w9rnfcy7mm78.cloudfront.net/11304653/original_398c3aa8307e11e422ea3f2893016af3.jpg?1616593281?bc=0">
 
 First of all, Landscape has been a success. We’ve gone from under 10 public groups when we launched OS1, to over 200 today. Those are the ones we know about; there are almost certainly more. 
 
@@ -39,7 +39,7 @@ Intellectual or political siloing happens less than expected. This could change 
 
 One might expect that the ability to leave a group and start your own results in lots of ragequits. The reality, as far as we’ve seen, is quite the opposite. We’re not sure if it’s because simply having the option makes people calmer, or because moderation isn’t outsourced to faraway corporate overlords, but even situations that do end with one person leaving tend towards the polite.
 
-<img class="my-12 w-4/5 m-auto" alt="Landscape Home Interface" src="https://d2w9rnfcy7mm78.cloudfront.net/11294905/original_9b59fced1155f4cbc261d5b3c5566c7b.jpg">
+<img class="my-12 w-4/5 m-auto" alt="Landscape Home Interface" src="https://d2w9rnfcy7mm78.cloudfront.net/11304654/original_4ca9262b3207499839ca4ece22c6302b.jpg?1616593282?bc=0">
 
 Many Landscape groups have different, sometimes very explicit rules for the kinds of conversation they want to foster. The range of tone is interesting; there are serious religious discussions and utterly anarchic shitposting—sometimes from the same people; the difference is the venue, and the ‘signs on the wall’ there. We think this is important, because one of the flattening effects of social media is to make every aspect of a given online identity legible across contexts. At its worst, this flattening creates online mobs, but even before things get that bad, our social relations suffer. The all-seeing eye over your behavior in a neighborhood group, event pages, and discussions with family members, coworkers, fellow hobbyists elide the fact that we’re all complicated people, and that our behavior and affect is necessary contextual. 
 
