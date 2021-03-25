@@ -34,3 +34,9 @@ html { font-family: 'Inter var', sans-serif; }
 .custom-inset-border {
   box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.1);
 }
+
+.news-ratio {
+  aspect-ratio: 4 / 3;
+  width: 400px;
+  height: 300px;
+}
