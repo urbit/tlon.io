@@ -15,7 +15,7 @@ html { font-family: 'Inter var', sans-serif; }
     font-style: normal;
   }
 
-.editorial > p {
+.editorial > p, figcaption {
     @media (min-width: 1024px) { width: 58.333333%; }
     margin: auto;
     font-family: "Untitled-Serif", serif;
@@ -27,7 +27,14 @@ html { font-family: 'Inter var', sans-serif; }
   text-decoration: underline;
 }
 
-// replaces`border-black border-opacity-20 border border-solid` for image content
+.editorial > p > code {
+  font-size: medium;
+}
+
 .custom-inset-border {
   box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.1);
+}
+
+.news-ratio {
+  width: 100%;
 }
