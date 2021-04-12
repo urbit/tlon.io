@@ -53,9 +53,9 @@ Landscape has a lot of features yet to incorporate, and there’s other work bei
 
 The best way to experience both what the community has already built on Urbit, and see what’s possible, is to jump in and create a group yourself! Your interests are weird? We dare you to clear the bar (of both utter strangeness, and artistic quality) set by the Weirdness Unit.  
 
-If you want to bounce group ideas off other pilots, check out the Community Formation channel in `~bitbet-bolbel/urbit-community`.
+If you want to bounce group ideas off other pilots, check out the Community Formation channel in `[~bitbet-bolbel/urbit-community](web+urbitgraph://group/~bitbet-bolbel/urbit-community)`.
 
-To advertise your public group, go make a post in the Directory notebook in `~bollug-worlus/urbit-index`.
+To advertise your public group, go make a post in the Directory notebook in `[~bollug-worlus/urbit-index](web+urbitgraph://group/~bollug-worlus/urbit-index)`.
 
 Come start a group for you and your friends. It’s really that simple. 
 
