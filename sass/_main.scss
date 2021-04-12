@@ -24,11 +24,15 @@ html { font-family: 'Inter var', sans-serif; }
 }
 
 .editorial > p > a {
-  text-decoration: underline;
+  color: #3660ec;
 }
 
 .editorial > p > code {
   font-size: medium;
+}
+
+a > code {
+  font-size: 1rem;
 }
 
 .custom-inset-border {
