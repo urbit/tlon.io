@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}<title>Tlon Corporation - Careers</title>{% endblock title %}
+{% block content %}
+{% include "partials/nav.html" %}
+<header class="p-8 lg:p-16">
+  <h1 class="text-3xl font-medium">Tlon is home to worldbuilders</h1>
+  <section class="max-w-2xl serif text-xl pt-32">
+    <p class="pb-4">Tlon Corporation is a design and engineering company
+    building simple and beautiful digital environments for
+    Urbit — a reimagination of the networked personal computer
+    built entirely from scratch using new programming languages, p2p networking architectures, and cryptographic identity.</p>
+    <p class="pb-4">As Tlon, our goal is to comprehensively develop a useful, simple, and easy-to-use ecosystem of software using Urbit as
+    our foundation.</p>
+  </section>
+  <section class='py-16 text-sm pt-32'>
+    <h1 class="text-3xl font-medium">Openings</h1>
+<!-- TODO: Add a loop for the opening posts. -->
+  <section class="pt-32">
+    <h4 class="font-medium text-sm">General Availability</h4>
+    <p class="text-gray-400 text-sm">Remote</p>
+    <p class="text-sm pt-8">We’re looking for people who want to destroy the world. Email us at <code>apply@tlon.io</code>.</p>
+  </section>
+  </section>
+</header>
+{% endblock content %}

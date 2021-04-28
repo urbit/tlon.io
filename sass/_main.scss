@@ -15,6 +15,11 @@ html { font-family: 'Inter var', sans-serif; }
     font-style: normal;
   }
 
+.serif {
+  font-family: "Untitled-Serif", serif;
+  -webkit-font-smoothing: antialiased;
+}
+
 .editorial > p {
     @media (min-width: 1024px) { width: 58.333333%; }
     margin: auto;
