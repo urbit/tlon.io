@@ -20,7 +20,7 @@ html { font-family: 'Inter var', sans-serif; }
   -webkit-font-smoothing: antialiased;
 }
 
-.editorial > p, ol, h2 {
+.editorial > p, .editorial > ol, .editorial > ul, .editorial > h2 {
     @media (min-width: 1024px) { width: 58.333333%; }
     margin: auto;
     font-family: "Untitled-Serif", serif;

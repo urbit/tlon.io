@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}
+<meta name="og:title" content="{{ page.title }} - {{ config.title }}">
+<meta name="twitter:title" content="{{ page.title }} - {{ config.title }}">
+<title>{{ page.title }} - {{ config.title }}</title>
+{% endblock title %}
+{% block content %}
+{% include "partials/nav.html" %}
+<article class="p-8 lg:p-16 lg:w-10/12 container mx-auto">
+
+  <header class="box-border lg:w-7/12 pb-16 m-auto">
+    <h1 class="text-3xl font-medium pb-2">{{ page.title }}</h1>
+    {% if page.extra.location %}
+    <p class="text-gray-400">{{ page.extra.location }}</p>
+    {% else %}
+    <p class="text-gray-400">Remote</p>
+    {% endif %}
+  </header>
+
+  <section class="editorial pt-16 leading-relaxed text-lg lg:text-xl font-serif">
+    {{ page.content | safe }}
+  </section>
+</article>
+{% endblock content %}
