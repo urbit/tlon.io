@@ -14,9 +14,22 @@
   </section>
   <section class='py-16 text-sm pt-32'>
     <h1 class="text-3xl font-medium">Openings</h1>
-<!-- TODO: Add a loop for the opening posts. -->
-  <section class="pt-32">
-    <h4 class="font-medium text-sm">General Availability</h4>
+  <section class="pt-24">
+    {% for page in section.pages %}
+    <a href="{{ page.permalink | safe }}">
+      <div>
+        <h4 class="font-medium text-sm pt-8">{{ page.title }}</h4>
+        <p class="text-gray-400 text-sm">
+          {% if page.extra.location %}
+            {{ page.extra.location }}
+          {% else %}
+            Remote
+          {% endif %}
+        </p>
+      </div>
+    </a>
+    {% endfor %}
+    <h4 class="font-medium text-sm pt-8">General Availability</h4>
     <p class="text-gray-400 text-sm">Remote</p>
     <p class="text-sm max-w-2xl pt-4"><i>"The contact and the habit of Tlon have disintegrated this world."</i>
     <p class="pt-4">We're looking for world enders and rebuilders.</p>
