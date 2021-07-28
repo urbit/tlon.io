@@ -4,6 +4,12 @@ title = "Product manager, Landscape"
 location = "Remote"
 +++
 
+## About Tlon
+
+Tlon Corporation is a design and engineering company building simple and beautiful digital environments on Urbit &mdash;
+
+&mdash; Urbit is a reimagination of the *networked personal computer* built from scratch. Urbit's goal is to be a simple, understandable computer for an individual to own and control completely.
+
 ## Overview
 
 Tlon is looking for a product manager to manage and direct the future of Landscape. Landscape is at a critical juncture in its development, as it transitions from being a singular product experience to a catalyst for the creation of an ecosystem of diverse product experiences.
@@ -59,8 +65,12 @@ This shift in direction represents an important milestone in Urbit’s evolution
 
 Your role is to usher in this change and ensure its success.
 
+[^1]: There's two meanings of safe: safe against malicious developers, and safe when developers are acting in good faith. Notable OSes which are not safe against malicious software include Windows, Mac, Linux. Notable OSes which are mostly safe against malicious software include Chrome, and to a limited extent iOS and Android. The version of safe we’re referring to is the latter: safe against developers acting in good faith.
+
+<br>
+
 ## Apply
 
 Send an email to [apply@tlon.io](mailto:apply@tlon.io) with a cover letter and resume.
 
-[^1]: There's two meanings of safe: safe against malicious developers, and safe when developers are acting in good faith. Notable OSes which are not safe against malicious software include Windows, Mac, Linux. Notable OSes which are mostly safe against malicious software include Chrome, and to a limited extent iOS and Android. The version of safe we’re referring to is the latter: safe against developers acting in good faith.
+*Tlon is an equal opportunity employer and does not discriminate in employment on the basis of race, color, religion, sex (including pregnancy and gender identity), national origin, political affiliation, sexual orientation, marital status, disability, genetic information, age, or any other non-merit factor.*
