@@ -28,12 +28,12 @@ Landscape, like Urbit, is also an open-source project. You’ll be working in pu
 
 ## Responsibilities
 
-Oversee and direct the roadmap of Landscape in collaboration with the CPO
-Ensure on-time and robust product releases
-Work with Tlon’s engineers and designers to scope issues and features
-Deliver a high quality of experience to users
-Define and measure KPIs to determine success
-Triage issues and ensure timely resolution
+- Oversee and direct the roadmap of Landscape in collaboration with the CPO
+- Ensure on-time and robust product releases
+- Work with Tlon’s engineers and designers to scope issues and features
+- Deliver a high quality of experience to users
+- Define and measure KPIs to determine success
+- Triage issues and ensure timely resolution
 
 ## Requirements
 
