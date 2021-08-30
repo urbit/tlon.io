@@ -4,8 +4,6 @@ title = "Copywriter/Editor, Marketing"
 location = "Remote"
 +++
 
-## Copywriter/Editor
-
 **About Tlon / Urbit**
 
 Tlon is one of the companies working on Urbit, a new platform for *personal* computing in the cloud. Urbit is a decentralized identity system (Urbit ID) and a network of personal servers (Urbit OS) designed for individual day to day communication, collaboration and commerce. You can learn more about Urbit and try it out at [https://urbit.org](https://urbit.org).
