@@ -7,7 +7,7 @@ draft = true
 
 ## About Tlon
 
-Tlon is one of the companies working on Urbit, a new platform for personal computing in the cloud. Urbit is a decentralized identity system (Urbit ID) and a network of personal servers (Urbit OS) designed for individual day to day communication, collaboration, and commerce. You can learn more about Urbit and try it out at [https://urbit.org](https://urbit.org).
+Tlon is one of the companies working on Urbit, a new platform for personal computing in the cloud. Urbit is a decentralized identity system (Urbit ID) and a network of personal servers (Urbit OS) designed for individual day to day communication, collaboration, and commerce. You can learn more about Urbit and try it out at [urbit.org](https://urbit.org).
 
 While Tlon helps to build the core infrastructure of Urbit, its focus is on tools and products for communities that run on top of Urbit.  The first of those was Landscape, a flexible communication tool at the intersection of Discord, are.na, and Notion that we launched in 2020. The second is Tlon Hosting Services, which makes running an Urbit node as easy as any conventional app. The third is a mobile messenger called Pocket. We also contribute to Bridge, the open-source tool for interacting with Urbit ID.
 
@@ -37,10 +37,9 @@ Above all, we’re looking for someone with experience coordinating tough techni
 
 We have hired quite a lot of people out of the Urbit Community. This isn’t a requirement, but all applicants should be familiar with Urbit both technically and the existing community on the network. To get up to speed:
 
-- Read: Our docs, but especially https://urbit.org/understanding-urbit
-- Listen: to Arthur Falls’ Understanding Urbit podcast https://podcasts.apple.com/us/podcast/understanding-urbit/id1504188804
-- Play: Download Port, the Urbit client, and get on Landscape today: https://urbit.org/ 
-
+- Read: Our docs, but especially [Understanding Urbit](https://urbit.org/understanding-urbit)
+- Listen: to Arthur Falls’ [Understanding Urbit podcast](https://podcasts.apple.com/us/podcast/understanding-urbit/id1504188804)
+- Play: [Download Port}(https://urbit.org/getting-started), the Urbit client, and get on Landscape today
 
 *Tlon is an equal opportunity employer and does not discriminate in employment on the basis of 
 race, color, religion, sex, gender identity, pregnancy status, national origin, political affiliation, sexual orientation, marital status, disability, genetic information, age, or any other non-merit factor.*
