@@ -39,7 +39,7 @@ We have hired quite a lot of people out of the Urbit Community. This isn’t a r
 
 - Read: Our docs, but especially [Understanding Urbit](https://urbit.org/understanding-urbit)
 - Listen: to Arthur Falls’ [Understanding Urbit podcast](https://podcasts.apple.com/us/podcast/understanding-urbit/id1504188804)
-- Play: [Download Port}(https://urbit.org/getting-started), the Urbit client, and get on Landscape today
+- Play: [Download Port](https://urbit.org/getting-started), the Urbit client, and get on Landscape today
 
 *Tlon is an equal opportunity employer and does not discriminate in employment on the basis of 
 race, color, religion, sex, gender identity, pregnancy status, national origin, political affiliation, sexual orientation, marital status, disability, genetic information, age, or any other non-merit factor.*
