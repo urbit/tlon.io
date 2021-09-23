@@ -29,7 +29,7 @@ You will:
 
 **Requirements**
 
-- BA in Design, HCI, or relevant field
+- Previous experience in Design, HCI, or a relevant field
 - Impactful aesthetic and discernment
 - 3+ years web design
 - React, Jamstack, HTML, CSS
