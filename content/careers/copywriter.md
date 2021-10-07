@@ -53,3 +53,5 @@ We have hired quite a lot of people out of the Urbit Community. This isn’t a r
 - Play: Download Port, the Urbit client, and get on Landscape today: https://urbit.org/ 
 
 *Tlon is an equal opportunity employer and does not discriminate in employment on the basis of race, color, religion, sex, gender identity, pregnancy status, national origin, political affiliation, sexual orientation, marital status, disability, genetic information, age, or any other non-merit factor.*
+
+Send applications to [apply@tlon.io](mailto:apply@tlon.io).
