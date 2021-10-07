@@ -74,3 +74,4 @@ Your role is to usher in this change and ensure its success.
 Send an email to [apply@tlon.io](mailto:apply@tlon.io) with a cover letter and resume.
 
 *Tlon is an equal opportunity employer and does not discriminate in employment on the basis of race, color, religion, sex (including pregnancy and gender identity), national origin, political affiliation, sexual orientation, marital status, disability, genetic information, age, or any other non-merit factor.*
+
