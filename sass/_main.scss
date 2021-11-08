@@ -21,8 +21,6 @@ html { font-family: 'Inter var', sans-serif; }
 }
 
 .editorial > p, .editorial > ol, .editorial > ul, .editorial > h2, .editorial .footnote-definition {
-    @media (min-width: 1024px) { width: 58.333333%; }
-    margin: auto;
     font-family: "Untitled-Serif", serif;
     -webkit-font-smoothing: antialiased;
     margin-bottom: 2rem;
@@ -52,4 +50,62 @@ ol {
 
 ul {
   list-style-type: circle;
+}
+
+.prose ul,
+.prose ol {
+  list-style-type: none;
+}
+
+.prose ol > li::before {
+  color: #374151;
+}
+
+.prose ul > li::before {
+  content: "\25CB";
+  font-size: .7rem;
+  background-color: transparent;
+}
+
+.terms-lists {
+  > ol > li {
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    p:not(:first-child),
+    > ol {
+      font-size: 1.125rem;
+      font-weight: 400;
+  
+      @media (min-width: 1024px) {
+        font-size: 1.25rem;
+      }
+  
+      > li {
+        padding-left: 3em;
+      }
+    }
+  }
+
+  ol {
+    counter-reset: section;
+
+    li {
+      &::before {
+        counter-increment: section;
+        content: counters(section, ".") ".";
+      }
+    }
+
+    ol {
+
+      ol {
+        counter-reset: section-letter;
+        li::before {
+          counter-increment: section-letter;
+          content: counters(section-letter, ".", lower-alpha) ".";
+        }
+      }
+    }
+  }
 }
