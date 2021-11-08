@@ -21,8 +21,6 @@ html { font-family: 'Inter var', sans-serif; }
 }
 
 .editorial > p, .editorial > ol, .editorial > ul, .editorial > h2, .editorial .footnote-definition {
-    @media (min-width: 1024px) { width: 58.333333%; }
-    margin: auto;
     font-family: "Untitled-Serif", serif;
     -webkit-font-smoothing: antialiased;
     margin-bottom: 2rem;
@@ -52,4 +50,14 @@ ol {
 
 ul {
   list-style-type: circle;
+}
+
+.prose ul {
+  list-style-type: none;
+}
+
+.prose ul > li::before {
+  content: "\25CB";
+  font-size: .7rem;
+  background-color: transparent;
 }
