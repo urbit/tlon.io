@@ -49,7 +49,7 @@ Nice to haves
 We have hired quite a lot of people out of the Urbit Community. This isn’t a requirement, but all applicants should be familiar with Urbit. To get up to speed:
 - Read: Our docs, but especially [Understanding Urbit](https://urbit.org/understanding-urbit)
 - Listen: to Arthur Falls’ [Understanding Urbit](https://podcasts.apple.com/us/podcast/understanding-urbit/id1504188804) podcast 
-- Play: Download Port, the Urbit client, and get on Landscape today: [urbit.org](https://urbit.org/)
+- Play: Download Port, the Urbit client, and get on Landscape today: [urbit.org](https://urbit.org/using/running/port)
 
 *Tlon is an equal opportunity employer and does not discriminate in employment on the basis of 
 race, color, religion, sex (including pregnancy and gender identity), national origin, political affiliation, sexual orientation, marital status, disability, genetic information, age, or any other non-merit factor.*
