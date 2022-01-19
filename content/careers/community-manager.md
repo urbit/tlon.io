@@ -9,7 +9,7 @@ Reports to the VP of Product
 
 **About Tlon / Urbit**
 
-Tlon is one of the companies working on Urbit, a new platform for personal computing in the cloud. Urbit is a decentralized identity system (Urbit ID) and a network of personal servers (Urbit OS) designed for individual day to day communication, collaboration and commerce. You can learn more about Urbit and try it out at urbit.org.
+Tlon is one of the companies working on Urbit, a new platform for personal computing in the cloud. Urbit is a decentralized identity system (Urbit ID) and a network of personal servers (Urbit OS) designed for individual day to day communication, collaboration and commerce. You can learn more about Urbit and try it out at [urbit.org](https://urbit.org/).
 
 While Tlon helps to build the core infrastructure of Urbit, its focus is on tools and products for communities that run on top of Urbit. The first of those was Groups, a flexible communication tool at the intersection of Discord, are.na, and Notion that we launched in 2020. The second is Tlon Hosting Services, the easiest way to run an Urbit OS node. The third is a mobile version of Landscape, called Pocket.
 
@@ -21,43 +21,43 @@ Mostly we don’t do marketing. We just help communities. Urbit is inherently so
 
 **What you will do**
 
-Manage and grow the Community team (currently located in the US)
-Cultivate engaged and growing communities on Groups
-Own the onboarding process for high touch individuals and communities across Tlon Hosting Services, Bridge, Port, Landscape, and Groups.
-Act as the primary point of contact for community leaders
-Educate communities on existing and new products and features
-Design and implement community programs, both digital and IRL
-Triage support requests from community leaders and work closely with our support team to resolve issues
-Work closely with Marketing to assist with guides, blog posts, research, and other community related resources
+- Manage and grow the Community team (currently located in the US)
+- Cultivate engaged and growing communities on Groups
+- Own the onboarding process for high touch individuals and communities across Tlon Hosting Services, Bridge, Port, Landscape, and Groups.
+- Act as the primary point of contact for community leaders
+- Educate communities on existing and new products and features
+- Design and implement community programs, both digital and IRL
+- Triage support requests from community leaders and work closely with our support team to resolve issues
+- Work closely with Marketing to assist with guides, blog posts, research, and other community related resources
 
 **About You**
 
 You are first and foremost a people person. Yes, you are fun to hang out with, but you are also professional. You are able to meet community members where they are at across varying levels of technical ability, familiarity, and goals. You make complex concepts easy to understand. You are a systems thinker and, as such, able to orchestrate processes across multiple products and teams. You are impeccably organized, reliable, and timely. You keep up on the latest on web3 and DAOs. You want to be part of every community on Urbit. 
 
 **Requirements**
-2+ years experience in either marketing, communications, support or software
-Strong written and verbal skills (English)
+- 2+ years experience in either marketing, communications, support or software
+- Strong written and verbal skills (English)
 
 Nice to haves: 
-Experience managing a small team
-Familiarity with the web3 / DAO ecosystem
-Already on Urbit!
+- Experience managing a small team
+- Familiarity with the web3 / DAO ecosystem
+- Already on Urbit!
 
 **Please include in your application**
 
-A resume/or LinkedIn profile
-A one-page writing sample containing either:
-Description of a community program you have or would like to implement
-A guide
+- A resume/or LinkedIn profile
+- A one-page writing sample containing either:
+    - Description of a community program you have or would like to implement
+    - A guide
 
 **Learn more about Urbit and Tlon**
 
 We have hired quite a lot of people out of the Urbit Community. This isn’t a requirement, but all applicants should be familiar with Urbit. 
 
 To get up to speed:
-Read: Urbit’s docs, but especially Understanding Urbit
-Listen: to Arthur Falls’ Understanding Urbit podcast
-Play: Download Port, the Urbit client, and get on Landscape today
+- Read: Urbit’s docs, but especially [Understanding Urbit](https://urbit.org/understanding-urbit)
+- Listen: to Arthur Falls’ [Understanding Urbit](https://podcasts.apple.com/us/podcast/understanding-urbit/id1504188804) podcast
+- Play: [Download Port](https://urbit.org/using/running/port), the Urbit client, and get on Landscape today
 
 
 
