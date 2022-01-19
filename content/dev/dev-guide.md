@@ -1,5 +1,3 @@
-# Dev Guide
-
 # Tlon Dev Guide
 ## What is this guide?
 This is Tlon's guide for new developers that want to build applications on Urbit. The goal of this guide is to take you from a fresh machine to a working development environment for Urbit applications. This guide assumes macOS, but Linux is also supported (see the Urbit foundation docs for Linux support) It's important this guide remains clear and correct, if you find something broken please let us know at support@tlon.io
