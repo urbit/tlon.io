@@ -141,10 +141,10 @@ For building applications to distribute on urbit, we'll want to work on a new de
      ```
  - If we had Gall agents in this desk which should be automatically started when the desk is installed, we'd add them to a hoon list in the `desk.bill` file. It would look something like this:
    - ```bash
-    :~  %some-app
-        %another
-    ==
-      ```
+      :~  %some-app
+          %another
+      ==
+     ```
    - Since we're not adding any agents in this example, we'll **omit the `desk.bill` file**.
  - The final file we need is `desk.docket-0`. This one's more complicated, so we'll need to edit it in a text editor.
    - ```bash
