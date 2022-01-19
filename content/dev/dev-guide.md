@@ -34,13 +34,13 @@ This is Tlon's guide for new developers that want to build applications on Urbit
     - ```bash 
       tar zxvf ./darwin.tgz --strip=1
       ```
-  - With the urbit binary install we're ready for the basic dev workflow.
+  - With the urbit binary installed we're ready for the basic dev workflow.
 
 ## Development Basics
 
 ### Fake Ships
 #### What is a "fake" ship?
- - For local development we'll create a 'fake' ship, this is a local ship that is not created to the urbit network. This means we don't need a real ID (eg comet, planet) and can delete and recreate the ship whenever we want to reset things.
+ - For local development we'll create a 'fake' ship, this is a local ship that is not connected to the urbit network. This means we don't need a real ID (eg comet, planet) and can delete and recreate the ship whenever we want to reset things.
 #### Creating a fake ship
  - We can create a local fake ship with the below command. This will create a fake ship named zod in our `urbit-dev` directory. This will take a couple of minutes and generate some output in the terminal.
    - ```bash
