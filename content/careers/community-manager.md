@@ -2,11 +2,9 @@
  title = "Community Manager"
  [extra]
  location = "Remote"
+ department = "Marketing"
+ reports = "VP of Product"
  +++
-
-Department: Marketing
-
-Reports to the VP of Product
 
 **About Tlon / Urbit**
 

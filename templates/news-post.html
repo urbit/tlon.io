@@ -6,9 +6,9 @@
 {% endblock title %}
 {% block content %}
 {% include "partials/nav.html" %}
-<article class="p-8 lg:p-16 lg:w-10/12 container mx-auto">
+<article class="p-8 lg:p-16 lg:w-7/12 container mx-auto">
 
-    <header class="box-border lg:w-7/12 pb-16 m-auto">
+    <header class="box-border lg:w-100 pb-16 m-auto">
         <h1 class="text-3xl font-medium pb-2">{{ page.title }}</h1>
         {% if page.extra.author %}
         <p class="pb-2">{{page.extra.author}}</p>
@@ -16,7 +16,7 @@
         <p class="text-gray-400" href="#">{{ page.date | date(format="%B %Y") }}</p>
     </header>
 
-    <section class="editorial pt-16 leading-relaxed text-lg lg:text-xl font-serif lg:w-6/12">
+    <section class="editorial pt-16 leading-relaxed text-lg lg:text-xl font-serif">
         {{ page.content | safe }}
     </section>
 
