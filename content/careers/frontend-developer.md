@@ -2,7 +2,7 @@
  title = "Frontend Developer"
  [extra]
  location = "Remote"
-+++
+ +++
 
 *Tlon Corporation is a design and engineering company
 building simple and beautiful digital environments for Urbit —*
@@ -46,7 +46,9 @@ You'll report to Hunter Miller, our UI Engineering Manager.
 - Experience building UI in other languages and platforms, especially native desktop and mobile
 - Experience working with design systems and collaborating directly with designers to achieve visual consistency
 
-## Apply Now Button
+<section class="box-border p-8 lg:p-16 grid justify-items-stretch">
+    <a class="font-sans bg-blue-100 text-blue-800 py-4 px-6 rounded-xl justify-self-center" href="mailto:apply@tlon.io">Apply Now</a>
+</section>
 
 Tlon is an equal opportunity employer and does not discriminate in employment on the basis of race, color, religion, sex (including pregnancy and gender identity), national origin, political affiliation, sexual orientation, marital status, disability, genetic information, age, or any other non-merit factor.
 

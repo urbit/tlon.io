@@ -2,8 +2,6 @@
  title = "Community Manager"
  [extra]
  location = "Remote"
- department = "Marketing"
- reports = "VP of Product"
  +++
 
 **About Tlon / Urbit**
@@ -57,6 +55,10 @@ To get up to speed:
 - Read: Urbit’s docs, but especially [Understanding Urbit](https://urbit.org/understanding-urbit)
 - Listen: to Arthur Falls’ [Understanding Urbit](https://podcasts.apple.com/us/podcast/understanding-urbit/id1504188804) podcast
 - Play: [Download Port](https://urbit.org/using/running/port), the Urbit client, and get on Landscape today
+
+<section class="box-border p-8 lg:p-16 grid justify-items-stretch">
+    <a class="font-sans bg-blue-100 text-blue-800 py-4 px-6 rounded-xl justify-self-center" href="mailto:apply@tlon.io">Apply Now</a>
+</section>
 
 
 
