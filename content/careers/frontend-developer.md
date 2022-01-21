@@ -35,13 +35,13 @@ You'll report to Hunter Miller, our UI Engineering Manager.
 
 - Have 2+ years of relevant experience
 - Have experience with modern front-end web development workflows and toolchains (eg. React, TypeScript, Tailwind, Vite/Webpack)
-- Have experience using Urbit, running and operating ships
 - Can foresee cross-browser compatibility issues and client-side performance considerations
 - Can operate autonomously on complex projects involving brand new tech which may not have documentation
 - Have ideas about the future of UI and how we can bring native UIs to Urbit
 
 ## Nice to Haves
 
+- Have experience using Urbit, running and operating ships
 - Familiarity with Hoon and Gall agents
 - Experience building UI in other languages and platforms, especially native desktop and mobile
 - Experience working with design systems and collaborating directly with designers to achieve visual consistency
