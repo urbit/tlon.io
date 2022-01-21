@@ -12,10 +12,6 @@ This is Tlon's guide for new developers that want to build applications on Urbit
 - A package that enables git to work with large files, we'll install this via brew.
 - ```brew install git-lfs```
 
-### Wget
- - A package used to download artifacts from the web
- - `brew install wget`
-
 ### Visual Studio Code
  - While not technically a prerequisite, there's a hoon syntax highlighting plugin available and this is the editor we recommend: https://code.visualstudio.com/
  - For the small text file edits in this guide, we'll simply use `nano`.
@@ -212,7 +208,7 @@ We'll now create the files for the glob. We'll use a very simple static HTML pag
    mkdir hello-glob
    cd hello-glob
    mkdir img
-   wget -P img https://media.urbit.org/docs/userspace/dist/pot.svg
+   curl https://media.urbit.org/docs/userspace/dist/pot.svg --output img/pot.svg
    ```
 - We've grabbed an image to use in our "Hello world!" page. The next thing we need to add is an `index.html` file in the root of the folder. The `index.html` file is mandatory; it's what will be loaded when the app's tile is clicked. Let's open our preferred editor and create it.
   - ```bash
