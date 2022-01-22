@@ -180,7 +180,12 @@ For building applications to distribute on urbit, we'll want to work on a new de
 
 ##### Installing The New Desk Into Fake Zod
 
-- Once our new fake zod is booted we'll create and mount a new `%hello` desk in dojo.
+ - Let's start up the fake ship we created earlier.
+   - ```bash
+     cd ~/urbit-dev/
+     ./urbit zod
+     ```
+- Once our fake zod is booted we'll create and mount a new `%hello` desk in dojo.
   - ```bash
     |merge %hello our %base
     |mount %hello
