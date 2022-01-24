@@ -95,7 +95,7 @@ This is Tlon's guide for new developers that want to build applications on Urbit
 
 A desk is an independently revision-controlled branch of a ship that uses the Clay filesystem. Each desk contains its own apps, mark definitions, files, etc. You can think of a desk like a git branch you're working in.
 
-A basic ship has a `%base`, `%garden`, `%landscape`, `%bitcoin`, and `webterm` desk (we mounted these earlier). The `%base` desk has the kernel and base system software, while other desks are usually each for different apps. 
+A basic ship has a `%base`, `%garden`, `%landscape`, `%bitcoin`, and `webterm` desk (we mounted these earlier). The `%base` desk has the kernel and base system software, while other desks are each for different apps. 
 
 A desk is a series of numbered commits, the most recent of which represents the current state of the desk. A commit is composed of an absolute time when it was created, a list of zero or more parents, and a map from paths to data.
 
@@ -116,60 +116,80 @@ For building applications to distribute on urbit, we'll want to work on a new de
 
 ##### Setting Up a New Desk
 
- - To create a new desk we'll need to merge from an existing one. Typically this will be `%base`, think of this like creating a new branch.
- - Every new desk needs a number of base files, in order to simplify this a bit we've created a script that symlinks all the files necessary for interacting with the `%base` and `%garden` desks.
-    - **Note**: `garden` is an old name for the application now referred to as `groups`.
- - In `urbit-git/pkg` we can see `base-dev` and `garden-dev` desks. These desks contain symlinks to all of the `/sur`, `/lib` and `/mar` files necessary for interacting with the `base` and `garden` desks. Don't worry about these details for now, but we'll be using these to set up our initial environment.
- - Let's create a new `hello` desk.
- - First navigate to the `pkg` directory in `urbit-git`
+ - To create a new desk we'll need to merge from an existing one, think of this like creating a new branch.
+ - Let's create a new `hello` desk by merging from `%garden` (`garden` is just an old name for the application now referred to as `landscape`).
+ - **Note**: Thinking about dependencies:
+   - When we merge from `%garden` we start with its base files in our application.
+   - Since we're copying these files over, its possible an API change could happen in `urbit-git` while we're building our app.
+   - It's good practice to run the merge command at the start of development and prior to deployment (after a fresh pull of `urbit-git`) to make sure it works with the up to date system changes.
+  - Let's start up our fake zod.
+    - ```bash
+      cd ~/urbit-dev
+      ./urbit zod
+      ```
+  - Create our desk in the dojo by merging from `%garden`
+    - ```bash
+      |merge %hello our %garden
+      ```
+  - Mount `%hello` so we can access it from the host filesystem.
+    - ```bash
+      |mount %hello
+      ```
+  - Exit the Dojo with `|exit` or `ctrl-D` 
+ - Now we should see `hello` inside the `zod` directory, populated with files.
+   - The `sys.kelvin` file specifies the kernel version it's compatible with.
+   - The optional `desk.ship` file specifies the original publisher of this desk. Since we merged this from `%garden` its currently set to `~mister-dister-dozzod-dozzod`. Let's change this to our fake ship `~zod`, in practice you'll set this to the ID you want to be seen as the publisher (likely your urbit ID). Currently there is no verification that makes sure publishers are honest about this, but eventually there will be.
    - ```bash
-     cd ~/urbit-git/pkg
+     echo "~zod" > ~/urbit-dev/zod/hello/desk.ship
      ```
- - Next create a `hello` directory
+ - If we had Gall agents in this desk which should be automatically started when the desk is installed, we'd add them to a hoon list in the `desk.bill` file. From our `%garden` merge we currently have this:
    - ```bash
-     mkdir hello
-     ```
- - Next run the included `symbolic-merge.sh` script from the `pkg` directory.
-   - ```bash
-     ./symbolic-merge.sh base-dev hello
-     ./symbolic-merge.sh garden-dev hello
-     ```
- - Now we should see `lib`, `mar`, and `sur` inside `hello`.
- - Our desk must include a `sys.kelvin` file which specifies the kernel version it's compatible with. Let's create that.
-   - ```bash
-     echo "[%zuse 419]" > sys.kelvin
-     ```
- - We can also optionally add a `desk.ship` file to specify the original publisher of this desk. Since we're going to use our fake ship `~zod` let's add `~zod` as the publisher. Currently there is no verification that makes sure publishers are honest about this, but eventually there will be.
-   - ```bash
-     echo "~zod" > desk.ship
-     ```
- - If we had Gall agents in this desk which should be automatically started when the desk is installed, we'd add them to a hoon list in the `desk.bill` file. It would look something like this:
-   - ```bash
-      :~  %some-app
-          %another
+      :~  %docket
+          %treaty
+          %hark-store
+          %hark-system-hook
+          %settings-store
       ==
      ```
-   - Since we're not adding any agents in this example, we'll **omit the `desk.bill` file**.
- - The final file we need is `desk.docket-0`. This one's more complicated, so we'll need to edit it in a text editor.
+ - Since we're not adding any agents in this example, we'll remove the `desk.bill` file and some other garden specific directories.
+   - ```bash
+       rm ~/urbit-dev/zod/hello/desk.bill app gen ted
+     ```
+ - If you `ls` you should see the following in `hello`:
+   - `desk.docket-0 desk.ship     lib           mar           sur           sys.kelvin`
+ - The final file we need to edit is `desk.docket-0`. This one's more complicated, so we'll need a text editor.
    - ```bash
      nano desk.docket-0
      ```
-   - In the text editor paste the following and save:
+   - In the text editor you'll see the following that came in from `%garden`:
+   - ```bash
+        :~ title+'System'
+           info+'An app launcher for Urbit.'
+           color+0xee.5432
+           version+[1 0 2]
+           website+'https://tlon.io'
+           license+'MIT'
+           base+'grid'
+           glob-http+['https://bootstrap.urbit.org/glob-0v4.64ana.19ug9.ik7l6.og080.68ce4.glob' 0v4.64ana.19ug9.ik7l6.og080.68ce4]
+        ==
+     ```
+   - We're going to modify this for our app to the below:
    - ```bash
      :~  title+'Hello'
          info+'A simple hello world app.'
          color+0x81.88c9
-         image+'https://media.urbit.org/docs/userspace/dist/wut.svg'
-         base+'hello'
-         glob-ames+[~zod 0v0]
          version+[0 0 1]
          website+'https://urbit.org/docs/userspace/dist/guide'
          license+'MIT'
+         base+'hello'
+         glob-ames+[~zod 0v0]
+         image+'https://media.urbit.org/docs/userspace/dist/wut.svg'
      ==
      ```
   - This is a `docket` file. This file sets various options for the desk with a tile and usually a brower-based front-end of some kind. 
   - It mainly configures the appearance of an app's tile, the source of its glob (bundle of client resources like HTML, JS, and CSS files), and some additional metadata.
-    - We've given the app a `%title` of "Hello", which will be displayed on the app tile and will be the name of the app when others browse to install it. We've given the app tile a `%color` of #8188C9, and also specified the URL of an `%image` to display on the tile.
+    - We've given the app a `%title` of "Hello", which will be displayed on the app tile and will be the name of the app when others browse to install it. 
+    - We've given the app tile a `%color` of #8188C9, and specified the URL of an `%image` to display on the tile.
     - The `%base` clause specifies the base URL path for the app. We've specified "hello" so it'll be `http://localhost:80/apps/hello/...` in the browser.
       - **Note**: `%base` is only put into `/apps/[base]` here *because* the app is served as a glob through docket. A `%site` would be free to bind whereever.
       - **Note**: `:80` is dependent on urbit being able to bind to that default. If it's in use by something else the port will likely be `:8080`, but you can see which one is in use by looking at the output generated in the terminal when you start your ship. Use the one your ship shows, this guide will assume the defaults are working for examples.
@@ -178,29 +198,14 @@ For building applications to distribute on urbit, we'll want to work on a new de
     - The `%version` clause specifies the version as a triple of major version, minor version and patch version. The rest is just some additional informative metadata which will be displayed in App Info.
 - With that saved we now have everything we need in the `hello` directory.
 
-##### Installing The New Desk Into Fake Zod
+##### Committing and Installing The Changes
 
- - Let's start up the fake ship we created earlier.
+ - Let's start up fake zod.
    - ```bash
      cd ~/urbit-dev/
      ./urbit zod
      ```
-- Once our fake zod is booted we'll create and mount a new `%hello` desk in dojo.
-  - ```bash
-    |merge %hello our %base
-    |mount %hello
-    ```
-- We should now see `hello` inside our `zod` directory.
-- Currently it's just a clone of `%base` so let's delete its contents.
-  - ```bash
-    cd ~/urbit-dev/zod
-    rm -r hello/*
-    ```
-- Next we'll copy the contents of the `hello` desk we created earlier. We'll need to use `cp -LR` to resolve all the symlinks.
-  - ```bash
-    cp -LR ~/urbit-git/pkg/hello/* hello/
-    ```
-- Back in the `zod` dojo we can commit the changes and install the desk.
+- Commit and install our changes.
   - ```bash
     |commit %hello
     |install our %hello
