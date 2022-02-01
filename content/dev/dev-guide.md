@@ -95,7 +95,7 @@ This is Tlon's guide for new developers that want to build applications on Urbit
 
 A desk is an independently revision-controlled branch of a ship that uses the Clay filesystem. Each desk contains its own apps, type definitions, files, etc. You can think of a desk like a git branch you're working in.
 
-A basic ship has a `%base`, `%garden`, `%landscape`, `%bitcoin`, and `webterm` desk (we mounted these earlier). The `%base` desk has the kernel and base system software, while other desks are each for different apps. 
+A basic ship has a `%base`, `%garden`, `%landscape`, `%bitcoin`, and `webterm` desk. The `%base` desk has the kernel and base system software, while other desks are each for different apps.
 
 A desk is a series of numbered commits, the most recent of which represents the current state of the desk. A commit is composed of an absolute time when it was created, a list of zero or more parents, and a map from paths to data.
 
