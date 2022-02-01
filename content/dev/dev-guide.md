@@ -118,10 +118,6 @@ For building applications to distribute on Urbit, we'll want to work on a new de
 
  - To create a new desk we'll need to merge from an existing one, think of this like creating a new branch.
  - Let's create a new `hello` desk by merging from `%garden` (`garden` is just an old name for the application now referred to as `landscape`).
- - **Note**: Thinking about dependencies:
-   - When we merge from `%garden` we start with its base files in our application.
-   - Since we're copying these files over, its possible an API change could happen in `urbit-git` while we're building our app.
-   - It's good practice to run the merge command at the start of development and prior to deployment (after a fresh pull of `urbit-git`) to make sure it works with the up to date system changes.
   - Let's start up our fake `zod`.
     - ```bash
       cd ~/urbit-dev
@@ -131,6 +127,10 @@ For building applications to distribute on Urbit, we'll want to work on a new de
     - ```bash
       |merge %hello our %garden
       ```
+ - **Note**: Thinking about dependencies:
+   - When we merge from `%garden` we start with its base files in our application.
+   - Since we're copying these files over, its possible an API change could happen in `urbit-git` while we're building our app.
+   - It's good practice to run the merge command at the start of development and prior to deployment (after a fresh pull of `urbit-git`) to make sure it works with the up to date system changes.
   - Mount `%hello` so we can access it from the host filesystem.
     - ```bash
       |mount %hello
