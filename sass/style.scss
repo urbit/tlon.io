@@ -1,2 +1,5 @@
-@import url("https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css");
+@import url("https://unpkg.com/tailwindcss@^2/dist/base.min.css");
+@import url("https://unpkg.com/tailwindcss@^2/dist/components.min.css");
+@import url("https://unpkg.com/@tailwindcss/typography@0.4.x/dist/typography.min.css");
+@import url("https://unpkg.com/tailwindcss@^2/dist/utilities.min.css");
 @import "main";
