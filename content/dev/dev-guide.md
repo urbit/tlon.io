@@ -2,23 +2,23 @@
 
 ## What is this guide?
 
-This is Tlon's guide for new developers that want to build applications on Urbit. The goal of this guide is to take you from a fresh machine to a working development environment for Urbit applications. This guide assumes macOS, but Linux is also supported (see the Urbit foundation docs for Linux support) It's important this guide remains clear and correct, if you find something broken please let us know at support@tlon.io
+This is Tlon's guide for new developers who want to build applications on Urbit. The goal of this guide is to take you from a fresh machine to a working development environment for Urbit applications. This guide assumes macOS, but Linux is also supported (see the Urbit foundation docs for Linux support). It's important this guide remains clear and correct, if you find something broken please let us know at support@tlon.io.
 
 ## Pre-requisites
 
 ### Homebrew
 
-- Homebrew is a package manager for macOS, we'll need it installed in order to install `git-lfs`.
+- Homebrew is a package manager for macOS. We'll need it installed in order to install `git-lfs`.
 - ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```
 
 ### Git LFS
 
-- A package that enables git to work with large files, we'll install this via brew.
+- Git LFS is a package that enables git to work with large files. We'll install this via brew.
 - ```brew install git-lfs```
 
 ### Visual Studio Code
 
- - While not technically a prerequisite, there's a hoon syntax highlighting plugin available and this is the editor we recommend [Visual Studio Code](https://code.visualstudio.com/).
+ - While it's not technically required, you can install a hoon syntax highlighting plugin. This is the editor we recommend [Visual Studio Code](https://code.visualstudio.com/).
  - For the small text file edits in this guide, we'll simply use `nano`.
 
 ### The Urbit Git repository
@@ -36,7 +36,7 @@ This is Tlon's guide for new developers that want to build applications on Urbit
 
 ### The Urbit binary
 
- - First we need to create a directory for the urbit binary, we'll create this in your home directory.
+ - First we need to create a directory for the urbit binary. We'll create this in your home directory.
    - ```bash
      mkdir ~/urbit-dev
      ```
@@ -213,7 +213,7 @@ For building applications to distribute on Urbit, we'll want to work on a new de
   - You'll see `docket: awaiting manual glob for %hello desk` this is because our `desk.docket-0` files includes a `%glob-ames` clause which specifies our ship as the source, so it's waiting for us to upload the glob.
 - Open a browser and navigate to `http://localhost:80`. To get the login code, enter `+code` into the dojo prompt for your ship. For fake `~zod`s, the code is always `lidlut-tabwed-pillex-ridrup`. You'll see our tile, but it says installing with a spinner due to the missing glob.
 - **Note**: Why are we using globs to hold separate files instead of copying everything into Clay?
-  - We do this as a current VM memory limits work around. Large minimized JS blobs in Clay can't be reduced because each one is one line and unique. This means Clay will grow in size with every JavaScript file permenantly. The decision was made to have the JS remembered by the userspace application instead of writing to clay.
+  - We do this as a current VM memory limits work around. Large minimized JS blobs in Clay can't be reduced because each one is a single line and unique. This means Clay will grow in size with every JavaScript file permenantly. We decided to have the JS remembered by the userspace application instead of writing to clay.
   - This prevents Clay from growing permenantly in size.
   - In the future this will be resolved in two ways: Hoon front-end development and Clay tombstones (so we can fully forget older JS blobs we no longer need).
   - For the purposes of this guide you don't need to worry about this, it's just helpful context for advanced users.
@@ -251,7 +251,7 @@ We'll now create the files for the glob. We'll use a very simple static HTML pag
 
 We can now create a glob from the directory. To do so, navigate to `http://localhost:80/docket/upload` in the browser. This will bring up the `%docket` app's Globulator tool.
 
-- Simply select the `hello` desk from the drop-down, click `Choose file` and select the `hello-glob` folder in the the file browser, then hit `glob!`.
+- Simply select the `hello` desk from the drop-down, click `Choose file` and select the `hello-glob` folder in the file browser, then hit `glob!`.
 - Now if we return to our ship's homescreen, we should see the tile looks as we specified in the docket file: `http://localhost:80`
 - And if we click on the tile, it'll load the `index.html` in our glob.
 - Our app is working!
@@ -276,8 +276,8 @@ Let's spin up another fake ship so we can try to install our newly published app
    - Note: For desks without a docket file (and therefore without a tile and glob), users cannot install them through the web interface. Instead remote users can install it from the dojo with `|install ~our-ship %desk-name`.
 - In the browser, navigate to http://localhost:8081 and login with `~bus`'s code which can be found by running `+code` in the dojo for `bus`. In this case, the default is `riddec-bicrym-ridlev-pocsef`. Next, type `~zod/` in the search bar, and it should pop up a list of `~zod`'s published apps, which in this case is our `Hello` app.
 - When we click on the app, it'll show some of the information from the clauses in the docket file.
-- Click `Get App` and it'll ask as if we want to install it.
-- Finally, click `Get "Hello"` and it'll be installed as a tile on `~bus` which can then be opened.
+- Click `Get App`. It'll ask as if we want to install it.
+- Finally, click `Get "Hello"`. It'll be installed as a tile on `~bus` which can then be opened.
 
 ##### Summary and links
 
@@ -295,7 +295,7 @@ There's a lot of detail to get into from here, but the workflow above will give 
 
 #### Faster fake ship booting
 
-A common part of the development workflow is deleting and creating fake ships. The couple of minutes this takes slows down development. Instead we can create a backup copy of a freshly created fake ship. This way when you want to delete some fake ship you've been working on and reset it, it can be done instantly rather than having to wait for a new one to be created.
+A common part of the development workflow is deleting and creating fake ships. The couple of minutes this takes slows down development. Instead we can create a backup copy of a freshly created fake ship. This way when you want to delete some fake ship you've been working on and reset it, the process can be done instantly rather than having to wait for a new one to be created.
  - We'll do this now by backing up the fake `~zod` we just created.
  - First start up `~zod` from our `~/urbit-dev` directory. Notice that we don't need the `-F` argument this time because `~zod` is already created.
    - ```bash
