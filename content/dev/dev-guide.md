@@ -40,7 +40,7 @@ This is Tlon's guide for new developers who want to build applications on Urbit.
    - ```bash
      mkdir ~/urbit-dev
      ```
- - Next we're going to pull down the latest urbit binary from urbit.org from the newly created directory.
+ - Next we're going to pull down the latest urbit binary from urbit.org within the newly created directory.
     - ```bash
       cd ~/urbit-dev
       curl -JLO https://urbit.org/install/mac/latest
@@ -49,7 +49,7 @@ This is Tlon's guide for new developers who want to build applications on Urbit.
     - ```bash 
       tar -zxvf ./darwin.tgz --strip=1
       ```
-  - With the urbit binary installed we're ready for the basic dev workflow.
+  - With the urbit binary installed, we're ready for the basic dev workflow.
 
 ## Development basics
 
@@ -57,18 +57,18 @@ This is Tlon's guide for new developers who want to build applications on Urbit.
 
 #### What is a "fake" ship?
 
- - For local development we'll create a 'fake' ship, this is a local ship that is not connected to the Urbit network. This means we don't need a real ID (eg comet, planet) and can delete and recreate the ship whenever we want to reset things.
+ - For local development we'll create a 'fake' ship, this is a local ship that is not connected to the Urbit network. This means we don't need a Urbit ID (e.g. comet, planet) and can delete or recreate the ship whenever we want to reset things.
 
 #### What is a "pill"?
 
  - A pill file contains a sequence of events that initializes an urbit ship (its boot sequence). If no pill is specified, the livenet pill is downloaded instead. 
  - Since OS updates propagate through the network, it's possible the default pill file could be slightly out of date.
- - We can manually get the most up to date pill file for local development by cloning down and using the up to date version in the urbit source code repo when starting our fake ship.
-   - For fake development ships not talking to the regular network this works well.
+ - We can manually get the most up-to-date pill file for local development by cloning down and using the up-to-date version in the urbit source code repo when starting our fake ship.
+   - For fake development ships not talking to the regular network, this works well.
    - We don't do this for 'real' ships on the actual network because if you're using a pill that's newer than what your sponsor has (the ship that you get updates from) your sponsor will think you're on an older version.
    - When this happens your sponsor will attempt to upgrade you, but will actually be downgrading you to their verison.
    - There are compiled and uncompiled pills. They are differentiated by a naming convention that adds `-brass` to the compiled pill name. For example, `multi.pill` is the name of a compiled pill and the name of its uncompiled version is `multi-brass.pill`. For the purposes of this guide we'll use compiled pills because they boot faster. An uncompiled pill lets you audit the source code if you need to.
- - In summary, if you're using a fake ship -> get the latest pill, if you're starting a real ship don't worry about pills.
+ - In summary, if you're using a fake ship -> get the latest pill. If you're starting a real ship don't worry about pills.
 
 #### Creating a fake ship
 
@@ -105,7 +105,7 @@ For building applications to distribute on Urbit, we'll want to work on a new de
 
 ##### Mounting and unmounting Desks
 
- - Mounting a desk allows you to add files to it (it creates a directory you can see on the host filesystem). Run these commands in the dojo.
+ - Mounting a desk allows you to add files to it by creating a directory you can see on the host filesystem. Run these commands in the dojo.
    - ```bash
      |mount %base
      ```
@@ -116,7 +116,7 @@ For building applications to distribute on Urbit, we'll want to work on a new de
 
 ##### Setting up a new desk
 
- - To create a new desk we'll need to merge from an existing one, think of this like creating a new branch.
+ - To create a new desk we'll need to merge from an existing one. Think of this like creating a new branch.
  - Let's create a new `hello` desk by merging from `%garden` (`garden` is just an old name for the application now referred to as `landscape`).
   - Let's start up our fake `zod`.
     - ```bash
@@ -129,8 +129,8 @@ For building applications to distribute on Urbit, we'll want to work on a new de
       ```
  - **Note**: Thinking about dependencies:
    - When we merge from `%garden` we start with its base files in our application.
-   - Since we're copying these files over, its possible an API change could happen in `urbit-git` while we're building our app.
-   - It's good practice to run the merge command at the start of development and prior to deployment (after a fresh pull of `urbit-git`) to make sure it works with the up to date system changes.
+   - Since we're copying these files over, it's possible an API change could happen in `urbit-git` while we're building our app.
+   - It's good practice to run the merge command at the start of development and prior to deployment (after a fresh pull of `urbit-git`) to make sure it works with the up-to-date system changes.
   - Mount `%hello` so we can access it from the host filesystem.
     - ```bash
       |mount %hello
@@ -138,11 +138,11 @@ For building applications to distribute on Urbit, we'll want to work on a new de
   - Exit the Dojo with `|exit` or `ctrl-D`.
  - Now we should see `hello` inside the `zod` directory, populated with files.
    - The `sys.kelvin` file specifies the kernel version it's compatible with.
-   - The optional `desk.ship` file specifies the original publisher of this desk. Since we merged this from `%garden` its currently set to `~mister-dister-dozzod-dozzod`. Let's change this to our fake ship `~zod`. In practice you'll set this to the ID you want to be seen as the publisher (likely your own Urbit ID). Currently there is no verification that makes sure publishers are honest about this, but eventually there will be.
+   - The optional `desk.ship` file specifies the original publisher of this desk. Since we merged this from `%garden` it's currently set to `~mister-dister-dozzod-dozzod`. Let's change this to our fake ship `~zod`. In practice you'll set this to the ID you want to be seen as the publisher (likely your own Urbit ID). Currently there is no verification that makes sure publishers are honest about this, but eventually there will be.
    - ```bash
      echo "~zod" > ~/urbit-dev/zod/hello/desk.ship
      ```
- - If we had Gall agents in this desk which should be automatically started when the desk is installed, we'd add them to a hoon list in the `desk.bill` file. From our `%garden` merge we currently have this:
+ - If we have Gall agents in this desk that we want to start automatically when the desk is installed, we'd add them to a hoon list in the `desk.bill` file. From our `%garden` merge we currently have this:
    - ```bash
      :~  %docket
          %treaty
@@ -157,7 +157,7 @@ For building applications to distribute on Urbit, we'll want to work on a new de
      ```
  - If you `ls` you should see the following in `hello`:
    - `desk.docket-0 desk.ship     lib           mar           sur           sys.kelvin`
- - The final file we need to edit is `desk.docket-0`. This one's more complicated, so we'll need a text editor.
+ - The final file we need to edit is `desk.docket-0`. This one is more complicated, so we'll need a text editor.
    - ```bash
      nano desk.docket-0
      ```
@@ -195,7 +195,7 @@ For building applications to distribute on Urbit, we'll want to work on a new de
       - **Note**: `:80` is dependent on urbit being able to bind to that default. If it's in use by something else the port will likely be `:8080`, but you can see which one is in use by looking at the output generated in the terminal when you start your ship. Use the one your ship shows, this guide will assume the defaults are working for examples.
     - For the glob, we've used a clause of `%glob-ames`, which means the glob will be served from a ship over Ames, as opposed to being served over HTTP with a `%glob-http` clause or having an Eyre binding with a `%site clause`. 
     - Next we've specified `[~zod 0v0]`. Since `~zod` is the fakeship we'll install it on, the `%docket` agent will wait for a local upload of the glob, so we can just specify `0v0` here as it'll get overwritten later.
-    - The `%version` clause specifies the version as a triple of major version, minor version and patch version. The rest is just some additional informative metadata which will be displayed in App Info.
+    - The `%version` clause specifies the version as a triple of major version, minor version and patch version. The rest is additional informative metadata that will be displayed in App Info.
 - With that saved we now have everything we need in the `hello` directory.
 
 ##### Committing and installing the changes
@@ -210,7 +210,7 @@ For building applications to distribute on Urbit, we'll want to work on a new de
     |commit %hello
     |install our %hello
     ```
-  - You'll see `docket: awaiting manual glob for %hello desk` this is because our `desk.docket-0` files includes a `%glob-ames` clause which specifies our ship as the source, so it's waiting for us to upload the glob.
+  - You'll see `docket: awaiting manual glob for %hello desk`. This is because our `desk.docket-0` file includes a `%glob-ames` clause that specifies our ship as the source, so it's waiting for us to upload the glob.
 - Open a browser and navigate to `http://localhost:80`. To get the login code, enter `+code` into the dojo prompt for your ship. For fake `~zod`s, the code is always `lidlut-tabwed-pillex-ridrup`. You'll see our tile, but it says installing with a spinner due to the missing glob.
 - **Note**: Why are we using globs to hold separate files instead of copying everything into Clay?
   - We do this as a current VM memory limits work around. Large minimized JS blobs in Clay can't be reduced because each one is a single line and unique. This means Clay will grow in size with every JavaScript file permenantly. We decided to have the JS remembered by the userspace application instead of writing to clay.
