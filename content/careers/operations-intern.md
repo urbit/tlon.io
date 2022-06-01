@@ -50,6 +50,6 @@ This is a paid internship. Interns will be expected to work at least half-time o
 
 We are open to remote candidates, but preference may be given to a San Francisco Bay Area candidate. The ability to travel and do some in-person outreach will be required for this position.
 
-Application process: Please write a statement (one page or less) on your interest in the position, relevant experience, knowledge of/involvement with the Urbit project, and time/location availability; attach your resume, and send both to apply [@tlon.io](mailto:corrina@tlon.io) as attachments.
+Application process: Please write a statement (one page or less) on your interest in the position, relevant experience, knowledge of/involvement with the Urbit project, and time/location availability; attach your resume, and send both to [apply@tlon.io](mailto:corrina@tlon.io) as attachments.
 
 *Tlon is a committed equal opportunity employer and does not discriminate in employment on the basis of race, color, religion, sex (including pregnancy and gender identity), national origin, political affiliation, sexual orientation, marital status, disability, genetic information, age, or any other non-merit factor.*
