@@ -1,5 +1,5 @@
 +++
- title = "Principal Product Designer"
+ title = "Customer Experience Manager"
  [extra]
  location = "Remote"
  +++
