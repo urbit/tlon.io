@@ -1,5 +1,5 @@
 +++
-title = 'UrbitHost is Joining Tlon'
+title = 'UrbitHost Is Joining Tlon'
 description = "The combination of resources and technical proximity to the network's overall development positions Tlon as the best place to build scalable hosting infrastructure. Collaborating only makes us stronger."
 date = 2022-07-12
 slug = 'urbithost-is-joining-tlon'
@@ -9,7 +9,7 @@ ship = '~lavlyn-litmeg'
 postimage = 'https://d2w9rnfcy7mm78.cloudfront.net/15200609/original_79e861b59c74c64be9cacd0f3f2019ef.jpg'
 +++
 
-<img class="mt-8 mb-16 w-full shadow-2xl rounded-md" alt="Landscape Group Interface" src="https://d2w9rnfcy7mm78.cloudfront.net/15200609/original_79e861b59c74c64be9cacd0f3f2019ef.jpg">
+<img class="mt-8 mb-16 w-full" alt="UrbitHost Is Joining Tlon" src="https://d2w9rnfcy7mm78.cloudfront.net/15200609/original_79e861b59c74c64be9cacd0f3f2019ef.jpg">
 
 The Urbit network continues to grow. Every day, new Urbit ships come online, and many of them are hosted. In mid 2021, [UrbitHost](https://urbithost.com) launched its own hosting operation and since then has become one of the most trusted providers. UrbitHost makes it possible to get onto the network in minutes, whether customers get a new Urbit ID or bring their own. 
 
