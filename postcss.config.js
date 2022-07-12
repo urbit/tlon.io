@@ -4,5 +4,6 @@ module.exports = {
     'postcss-import': {},
     tailwindcss: {},
     autoprefixer: {},
+    cssnano: {},
   }
 }
