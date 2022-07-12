@@ -8,14 +8,16 @@
   "scripts": {
     "dev": "run-p dev:*",
     "dev:ui": "zola serve",
-    "dev:css": "tailwindcss -i css/style.css -o static/style.css -w --minify",
+    "dev:css": "postcss css/style.css -o static/style.css -w",
     "build": "yarn run build:css && zola build",
-    "build:css": "tailwindcss -i css/style.css -o static/style.css --minify"
+    "build:css": "postcss css/style.css -o static/style.css"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.3",
+    "autoprefixer": "^10.4.7",
     "npm-run-all": "^4.1.5",
     "postcss": "^8.4.14",
+    "postcss-cli": "^10.0.0",
     "postcss-import": "^14.1.0",
     "tailwindcss": "^3.1.5"
   }
