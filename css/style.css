@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind typography;
+@tailwind utilities;
+
 @import url('https://rsms.me/inter/inter.css');
 html { font-family: 'Inter', sans-serif; }
 
@@ -6,14 +11,14 @@ html { font-family: 'Inter var', sans-serif; }
 }
 
 @font-face {
-    font-family: 'Untitled-Serif';
-    src: url('https://storage.googleapis.com/media.urbit.org/fonts/untitled-serif-web-regular.eot');
-    src: url('https://storage.googleapis.com/media.urbit.org/fonts/untitled-serif-web-regular.eot?#iefix') format('embedded-opentype'),
-         url('https://storage.googleapis.com/media.urbit.org/fonts/untitled-serif-web-regular.woff2') format('woff2'),
-         url('https://storage.googleapis.com/media.urbit.org/fonts/untitled-serif-web-regular.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-  }
+  font-family: 'Untitled-Serif';
+  src: url('https://storage.googleapis.com/media.urbit.org/fonts/untitled-serif-web-regular.eot');
+  src: url('https://storage.googleapis.com/media.urbit.org/fonts/untitled-serif-web-regular.eot?#iefix') format('embedded-opentype'),
+    url('https://storage.googleapis.com/media.urbit.org/fonts/untitled-serif-web-regular.woff2') format('woff2'),
+    url('https://storage.googleapis.com/media.urbit.org/fonts/untitled-serif-web-regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
 
 .serif {
   font-family: "Untitled-Serif", serif;
@@ -21,9 +26,9 @@ html { font-family: 'Inter var', sans-serif; }
 }
 
 .editorial > p, .editorial > ol, .editorial > ul, .editorial > h2, .editorial .footnote-definition {
-    font-family: "Untitled-Serif", serif;
-    -webkit-font-smoothing: antialiased;
-    margin-bottom: 2rem;
+  font-family: "Untitled-Serif", serif;
+  -webkit-font-smoothing: antialiased;
+  margin-bottom: 2rem;
 }
 
 .editorial > p > a {
@@ -39,7 +44,7 @@ html { font-family: 'Inter var', sans-serif; }
   font-size: 1.25em;
 }
 
-// replaces`border-black border-opacity-20 border border-solid` for image content
+/* replaces`border-black border-opacity-20 border border-solid` for image content */
 .custom-inset-border {
   box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.1);
 }
@@ -67,7 +72,46 @@ ul {
   background-color: transparent;
 }
 
-.terms-lists {
+.terms-lists > ol > li {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.terms-lists > ol > li > p:not(:first-child),
+.terms-lists > ol > li > ol {
+  font-size: 1.125rem;
+  font-weight: 400;
+
+  @media (min-width: 1024px) {
+    font-size: 1.25rem;
+  }
+}
+
+.terms-lists > ol > li > p:not(:first-child) > li,
+.terms-lists > ol > li > ol > li {
+  padding-left: 3em;
+}
+
+.terms-list ol {
+  counter-reset: section;
+}
+
+.terms-list ol li,
+.terms-list ol li::before {
+  counter-increment: section;
+  content: counters(section, ".") ".";
+}
+
+.terms-list ol ol ol {
+  counter-reset: section-letter;
+}
+
+.terms-list ol ol ol li::before {
+  counter-increment: section-letter;
+  content: counters(section-letter, ".", lower-alpha) ".";
+}
+
+/* .terms-lists {
   > ol > li {
     font-size: 1.5rem;
     font-weight: 700;
@@ -108,4 +152,4 @@ ul {
       }
     }
   }
-}
+} */
