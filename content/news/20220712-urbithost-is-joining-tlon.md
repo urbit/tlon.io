@@ -1,6 +1,6 @@
 +++
 title = 'UrbitHost is Joining Tlon'
-description = 'Landscape does exactly what it appears to do and nothing else. There are no ads or tracking, there are no gimmicks to try to keep you engaged or addicted, and there’s no quiet uncertainty that Landscape might disappear or change drastically.'
+description = "The combination of resources and technical proximity to the network's overall development positions Tlon as the best place to build scalable hosting infrastructure. Collaborating only makes us stronger."
 date = 2022-07-12
 slug = 'urbithost-is-joining-tlon'
 [extra]
