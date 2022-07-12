@@ -23,6 +23,6 @@ In order to realize this vision, UrbitHost is joining forces with the hosting ef
 
 During this transition period, UrbitHost will continue to operate as usual. Sign-ups for new Urbit hosting subscriptions will remain open. In a few months, we'll begin the process of moving UrbitHost ships to Tlon Hosting. The features and services UrbitHost users rely on to access their ships will not only persist following migration, they'll be enhanced as Tlon rolls out its new platform. 
 
-Our goal is to make Tlon Hosting the go-to provider for every new user trying to get on the network, and we're well on our way. If you have any concerns about the status of your ship as we transition, don't hesitate to reach out [over email](support@urbithost.com), or get in touch on Urbit.
+Our goal is to make Tlon Hosting the go-to provider for every new user trying to get on the network, and we're well on our way. If you have any concerns about the status of your ship as we transition, don't hesitate to reach out <a href="mailto:support@urbithost.com" target="_blank">over email</a>, or get in touch on Urbit.
 
 Thank you for choosing UrbitHost. We look forward to sharing our plans for an overhauled Tlon Hosting very soon.
