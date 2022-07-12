@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "run-p dev:*",
     "dev:ui": "zola serve",
-    "dev:css": "tailwindcss -i css/style.css -o static/style.css -w",
+    "dev:css": "tailwindcss -i css/style.css -o static/style.css -w --minify",
     "build": "yarn run build:css && zola build",
     "build:css": "tailwindcss -i css/style.css -o static/style.css --minify"
   },
