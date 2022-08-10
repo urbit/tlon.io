@@ -1,10 +1,10 @@
 +++
- title = "Director of Financial Planning & Analysis"
+ title = "Director of Finance"
  [extra]
  location = "Remote"
  +++
 
-We are seeking a Director of Financial Planning & Analysis to join the Operations team at Tlon! 
+We are seeking a Director of Finance to join the Operations team at Tlon! 
 
 ## About Tlon / Urbit
 
